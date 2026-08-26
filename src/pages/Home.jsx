@@ -177,11 +177,11 @@ export default function Home() {
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 py-2">
-                <div className="p-4 rounded-xl bg-[#121212] border border-[#262626] space-y-1.5">
+                <div className="p-4 rounded-xl bg-[#121212] border border-[#C9A227]/40 shadow-[0_0_12px_rgba(201,162,39,0.18)] hover:border-[#E0C15A] hover:shadow-[0_0_20px_rgba(224,193,90,0.35)] transition-all duration-500 space-y-1.5">
                   <div className="text-xs font-bold text-[#E0C15A] uppercase">Quality Workmanship</div>
                   <p className="text-xs text-gray-400 font-light">Every bolt, gasket, and component is installed according to OEM specifications.</p>
                 </div>
-                <div className="p-4 rounded-xl bg-[#121212] border border-[#262626] space-y-1.5">
+                <div className="p-4 rounded-xl bg-[#121212] border border-[#C9A227]/40 shadow-[0_0_12px_rgba(201,162,39,0.18)] hover:border-[#E0C15A] hover:shadow-[0_0_20px_rgba(224,193,90,0.35)] transition-all duration-500 space-y-1.5">
                   <div className="text-xs font-bold text-[#E0C15A] uppercase">Proper Diagnostics</div>
                   <p className="text-xs text-gray-400 font-light">We identify root causes electronically and mechanically before starting any job.</p>
                 </div>
@@ -251,8 +251,8 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {trustPillars.map((pillar, idx) => (
-              <div key={idx} className="p-6 rounded-2xl bg-[#121212] border border-[#262626] hover:border-[#C9A227]/40 transition-all group">
-                <div className="w-12 h-12 rounded-xl bg-[#1A1A1A] border border-[#333333] group-hover:border-[#C9A227]/60 text-[#E0C15A] flex items-center justify-center mb-5 transition-colors">
+              <div key={idx} className="p-6 rounded-2xl bg-[#121212] border border-[#C9A227]/40 shadow-[0_0_15px_rgba(201,162,39,0.2)] hover:border-[#E0C15A] hover:shadow-[0_0_25px_rgba(224,193,90,0.4)] transition-all duration-500 group">
+                <div className="w-12 h-12 rounded-xl bg-[#1A1A1A] border border-[#C9A227]/40 text-[#E0C15A] flex items-center justify-center mb-5 transition-colors group-hover:scale-110">
                   <ShieldCheck className="w-6 h-6" />
                 </div>
                 <h3 className="text-base font-bold text-white group-hover:text-[#E0C15A] transition-colors mb-2">

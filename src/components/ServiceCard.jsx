@@ -15,7 +15,7 @@ export default function ServiceCard({ service }) {
   const IconComponent = iconMap[service.iconName] || Wrench;
 
   return (
-    <div className="group relative bg-[#121212] border border-[#262626] rounded-2xl overflow-hidden shadow-xl hover:border-[#C9A227]/50 hover:shadow-2xl hover:shadow-[#C9A227]/10 transition-all duration-500 flex flex-col h-full">
+    <div className="group relative bg-[#121212] border border-[#C9A227]/40 rounded-2xl overflow-hidden shadow-[0_0_15px_rgba(201,162,39,0.2)] hover:border-[#E0C15A] hover:shadow-[0_0_25px_rgba(224,193,90,0.4)] transition-all duration-500 flex flex-col h-full">
       
       {/* Image Banner */}
       <div className="relative h-52 overflow-hidden bg-black">

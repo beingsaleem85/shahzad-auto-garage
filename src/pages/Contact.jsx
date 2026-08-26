@@ -43,10 +43,10 @@ export default function Contact() {
           {/* Top 3 Primary Cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             
-            {/* 1. Phone Card */}
-            <div className="p-8 rounded-3xl bg-[#121212] border border-[#262626] hover:border-[#C9A227]/50 transition-all flex flex-col justify-between space-y-6 shadow-xl group">
+            {/* 1. Direct Phone Card */}
+            <div className="p-8 rounded-3xl bg-[#121212] border border-[#C9A227]/40 shadow-[0_0_15px_rgba(201,162,39,0.2)] hover:border-[#E0C15A] hover:shadow-[0_0_25px_rgba(224,193,90,0.4)] transition-all duration-500 flex flex-col justify-between space-y-6 group">
               <div className="space-y-4">
-                <div className="w-14 h-14 rounded-2xl bg-[#1A1A1A] border border-[#333333] text-[#E0C15A] flex items-center justify-center group-hover:scale-110 transition-transform">
+                <div className="w-14 h-14 rounded-2xl bg-[#1A1A1A] border border-[#C9A227]/40 text-[#E0C15A] flex items-center justify-center group-hover:scale-110 transition-transform">
                   <Phone className="w-7 h-7 fill-[#C9A227] stroke-none" />
                 </div>
                 <div>
@@ -64,9 +64,9 @@ export default function Contact() {
             </div>
 
             {/* 2. WhatsApp Card */}
-            <div className="p-8 rounded-3xl bg-[#121212] border border-[#262626] hover:border-emerald-500/50 transition-all flex flex-col justify-between space-y-6 shadow-xl group">
+            <div className="p-8 rounded-3xl bg-[#121212] border border-[#C9A227]/40 shadow-[0_0_15px_rgba(201,162,39,0.2)] hover:border-emerald-500/60 hover:shadow-[0_0_25px_rgba(16,185,129,0.35)] transition-all duration-500 flex flex-col justify-between space-y-6 group">
               <div className="space-y-4">
-                <div className="w-14 h-14 rounded-2xl bg-[#1A1A1A] border border-[#333333] text-emerald-400 flex items-center justify-center group-hover:scale-110 transition-transform">
+                <div className="w-14 h-14 rounded-2xl bg-[#1A1A1A] border border-emerald-500/40 text-emerald-400 flex items-center justify-center group-hover:scale-110 transition-transform">
                   <WhatsAppIcon className="w-7 h-7 fill-emerald-400" />
                 </div>
                 <div>
@@ -86,9 +86,9 @@ export default function Contact() {
             </div>
 
             {/* 3. Location Address Card */}
-            <div className="p-8 rounded-3xl bg-[#121212] border border-[#262626] hover:border-[#C9A227]/50 transition-all flex flex-col justify-between space-y-6 shadow-xl group">
+            <div className="p-8 rounded-3xl bg-[#121212] border border-[#C9A227]/40 shadow-[0_0_15px_rgba(201,162,39,0.2)] hover:border-[#E0C15A] hover:shadow-[0_0_25px_rgba(224,193,90,0.4)] transition-all duration-500 flex flex-col justify-between space-y-6 group">
               <div className="space-y-4">
-                <div className="w-14 h-14 rounded-2xl bg-[#1A1A1A] border border-[#333333] text-[#E0C15A] flex items-center justify-center group-hover:scale-110 transition-transform">
+                <div className="w-14 h-14 rounded-2xl bg-[#1A1A1A] border border-[#C9A227]/40 text-[#E0C15A] flex items-center justify-center group-hover:scale-110 transition-transform">
                   <MapPin className="w-7 h-7 text-[#C9A227]" />
                 </div>
                 <div>
@@ -111,7 +111,7 @@ export default function Contact() {
           </div>
 
           {/* Interactive Google Map Visual Container */}
-          <div className="bg-[#121212] border border-[#262626] rounded-3xl p-6 sm:p-8 space-y-6">
+          <div className="bg-[#121212] border border-[#C9A227]/40 shadow-[0_0_20px_rgba(201,162,39,0.25)] rounded-3xl p-6 sm:p-8 space-y-6">
             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 border-b border-[#262626] pb-6">
               <div>
                 <h2 className="text-xl font-bold text-white flex items-center gap-2">

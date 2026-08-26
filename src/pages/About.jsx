@@ -116,7 +116,7 @@ export default function About() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             
-            <div className="p-6 rounded-2xl bg-[#121212] border border-[#262626] space-y-3">
+            <div className="p-6 rounded-2xl bg-[#121212] border border-[#C9A227]/40 shadow-[0_0_15px_rgba(201,162,39,0.2)] hover:border-[#E0C15A] hover:shadow-[0_0_25px_rgba(224,193,90,0.4)] transition-all duration-500 space-y-3">
               <div className="text-xs font-bold text-[#E0C15A] uppercase tracking-wider">01 / Service</div>
               <h3 className="text-base font-bold text-white">Professional Service</h3>
               <p className="text-xs text-gray-400 font-light leading-relaxed">
@@ -124,7 +124,7 @@ export default function About() {
               </p>
             </div>
 
-            <div className="p-6 rounded-2xl bg-[#121212] border border-[#262626] space-y-3">
+            <div className="p-6 rounded-2xl bg-[#121212] border border-[#C9A227]/40 shadow-[0_0_15px_rgba(201,162,39,0.2)] hover:border-[#E0C15A] hover:shadow-[0_0_25px_rgba(224,193,90,0.4)] transition-all duration-500 space-y-3">
               <div className="text-xs font-bold text-[#E0C15A] uppercase tracking-wider">02 / Quality</div>
               <h3 className="text-base font-bold text-white">Quality Workmanship</h3>
               <p className="text-xs text-gray-400 font-light leading-relaxed">
@@ -132,7 +132,7 @@ export default function About() {
               </p>
             </div>
 
-            <div className="p-6 rounded-2xl bg-[#121212] border border-[#262626] space-y-3">
+            <div className="p-6 rounded-2xl bg-[#121212] border border-[#C9A227]/40 shadow-[0_0_15px_rgba(201,162,39,0.2)] hover:border-[#E0C15A] hover:shadow-[0_0_25px_rgba(224,193,90,0.4)] transition-all duration-500 space-y-3">
               <div className="text-xs font-bold text-[#E0C15A] uppercase tracking-wider">03 / Precision</div>
               <h3 className="text-base font-bold text-white">Attention to Detail</h3>
               <p className="text-xs text-gray-400 font-light leading-relaxed">
@@ -140,7 +140,7 @@ export default function About() {
               </p>
             </div>
 
-            <div className="p-6 rounded-2xl bg-[#121212] border border-[#262626] space-y-3">
+            <div className="p-6 rounded-2xl bg-[#121212] border border-[#C9A227]/40 shadow-[0_0_15px_rgba(201,162,39,0.2)] hover:border-[#E0C15A] hover:shadow-[0_0_25px_rgba(224,193,90,0.4)] transition-all duration-500 space-y-3">
               <div className="text-xs font-bold text-[#E0C15A] uppercase tracking-wider">04 / Focus</div>
               <h3 className="text-base font-bold text-white">Customer-Focused</h3>
               <p className="text-xs text-gray-400 font-light leading-relaxed">

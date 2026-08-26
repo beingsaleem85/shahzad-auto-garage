@@ -45,7 +45,7 @@ export default function Services() {
             {servicesData.map((service, idx) => (
               <div 
                 key={service.id} 
-                className="bg-[#121212] border border-[#262626] rounded-2xl overflow-hidden shadow-xl hover:border-[#C9A227]/50 transition-all group flex flex-col md:flex-row md:h-[260px] w-full"
+                className="bg-[#121212] border border-[#C9A227]/40 rounded-2xl overflow-hidden shadow-[0_0_15px_rgba(201,162,39,0.2)] hover:border-[#E0C15A] hover:shadow-[0_0_25px_rgba(224,193,90,0.4)] transition-all duration-500 group flex flex-col md:flex-row md:h-[260px] w-full"
               >
                 {/* Image Side */}
                 <div className="md:w-5/12 relative h-52 md:h-full overflow-hidden bg-black shrink-0">

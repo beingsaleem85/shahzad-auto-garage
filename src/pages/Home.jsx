@@ -135,7 +135,7 @@ export default function Home() {
       {/* ---------------------------------------------------- */}
       {/* 2. ABOUT SECTION — HOMEPAGE */}
       {/* ---------------------------------------------------- */}
-      <section className="py-24 bg-[#0A0A0A] relative border-t border-[#1A1A1A]">
+      <section className="py-12 sm:py-20 bg-[#0A0A0A] relative border-t border-[#1A1A1A]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             
@@ -206,11 +206,11 @@ export default function Home() {
       {/* ---------------------------------------------------- */}
       {/* 3. SERVICES SECTION — HOMEPAGE */}
       {/* ---------------------------------------------------- */}
-      <section className="py-24 bg-[#070707] relative border-t border-[#1F1F1F]">
+      <section className="py-12 sm:py-20 bg-[#070707] relative border-t border-[#1F1F1F]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
           {/* Section Header */}
-          <div className="text-center max-w-3xl mx-auto space-y-4 mb-16">
+          <div className="text-center max-w-3xl mx-auto space-y-4 mb-8 sm:mb-12">
             <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#121212] border border-[#C9A227]/30 text-[#C9A227] text-xs font-semibold uppercase tracking-widest">
               Core Capabilities
             </div>
@@ -230,7 +230,7 @@ export default function Home() {
           </div>
 
           {/* Bottom Callout */}
-          <div className="mt-16 text-center">
+          <div className="mt-6 sm:mt-10 text-center">
             <Link
               to="/services"
               className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-[#E0C15A] hover:text-white border-b-2 border-[#C9A227] pb-1 hover:border-white transition-all"
@@ -247,7 +247,7 @@ export default function Home() {
       {/* ---------------------------------------------------- */}
       {/* 4. TRUST PILLARS / STATISTICS */}
       {/* ---------------------------------------------------- */}
-      <section className="py-20 bg-[#0A0A0A] border-t border-[#1A1A1A] relative">
+      <section className="py-12 sm:py-16 bg-[#0A0A0A] border-t border-[#1A1A1A] relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {trustPillars.map((pillar, idx) => (

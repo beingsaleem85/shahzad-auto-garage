@@ -15,7 +15,7 @@ export const garageInfo = {
     weekdays: "Monday – Sunday: 08:00 AM – 10:00 PM",
     emergency: "24/7 available in case of emergency"
   },
-  logo: "/logo/shahzad auto garage logo.png"
+  logo: "/logo/shahzad auto garage logo.webp"
 };
 
 export const servicesData = [
@@ -25,8 +25,8 @@ export const servicesData = [
     title: "Mechanical Services",
     shortDescription: "Comprehensive automotive mechanical inspection, diagnostic repair, and component maintenance executed to manufacturer standards.",
     iconName: "Wrench",
-    image: "/services/mechanical-services.png",
-    heroImage: "/services/mechanical-services.png",
+    image: "/services/mechanical-services.webp",
+    heroImage: "/services/mechanical-services.webp",
     heroSubtitle: "Engineered Precision & Rigorous Mechanical Care for Optimal Vehicle Integrity.",
     overview: "Our Mechanical Services encompass complete vehicle health assessments, structural and mechanical troubleshooting, and component restorations. Modern vehicles are complex mechanical systems that demand precise diagnosis rather than trial-and-error replacements. At Shahzad Auto Garage, our seasoned mechanical specialists utilize advanced physical diagnostic techniques and calibrated tools to solve complex drivability and mechanical issues.",
     whatWeCoverTitle: "Comprehensive Mechanical Capabilities",
@@ -44,9 +44,9 @@ export const servicesData = [
       "Provides transparent condition reports before any repair work commences"
     ],
     gallery: [
-      "/services/mechanical-services.png",
+      "/services/mechanical-services.webp",
       "/services/engine-overhauling.webp",
-      "/services/electrical-diagnostics.jpg"
+      "/services/electrical-diagnostics.webp"
     ]
   },
   {
@@ -76,8 +76,8 @@ export const servicesData = [
     ],
     gallery: [
       "/services/engine-overhauling.webp",
-      "/services/oil-change.avif",
-      "/services/mechanical-services.png"
+      "/services/oil-change.webp",
+      "/services/mechanical-services.webp"
     ]
   },
   {
@@ -86,8 +86,8 @@ export const servicesData = [
     title: "Brake Service",
     shortDescription: "Precision brake inspections, rotor resurfacing, ceramic pad replacement, and hydraulic system flushing for maximum stopping power.",
     iconName: "ShieldAlert",
-    image: "/services/brake-service.jpg",
-    heroImage: "/services/brake-service.jpg",
+    image: "/services/brake-service.webp",
+    heroImage: "/services/brake-service.webp",
     heroSubtitle: "Uncompromising Brake Safety, Tactile Pedal Response & Maximum Braking Efficiency.",
     overview: "Braking integrity is the single most critical safety aspect of any vehicle. At Shahzad Auto Garage, our Brake Service covers comprehensive physical audits of rotors, pads, calipers, lines, master cylinders, and ABS modules. Whether your vehicle is experiencing brake squeal, steering wheel vibration under braking, or a spongy brake pedal, we diagnose and rectify the exact root cause.",
     whatWeCoverTitle: "Comprehensive Braking Care",
@@ -106,9 +106,9 @@ export const servicesData = [
       "Extends rotor and caliper lifespans by eliminating uneven friction wear"
     ],
     gallery: [
-      "/services/brake-service.jpg",
-      "/services/suspension-transmission.jpg",
-      "/services/mechanical-services.png"
+      "/services/brake-service.webp",
+      "/services/suspension-transmission.webp",
+      "/services/mechanical-services.webp"
     ]
   },
   {
@@ -117,8 +117,8 @@ export const servicesData = [
     title: "Suspension & Transmission",
     shortDescription: "Advanced suspension overhaul, strut replacement, wheel alignment checks, and smooth automatic/manual transmission repair.",
     iconName: "Sliders",
-    image: "/services/suspension-transmission.jpg",
-    heroImage: "/services/suspension-transmission.jpg",
+    image: "/services/suspension-transmission.webp",
+    heroImage: "/services/suspension-transmission.webp",
     heroSubtitle: "Engineered Ride Comfort, Cornering Stability & Seamless Driveline Gear Changes.",
     overview: "Your suspension system ensures ride comfort and tire traction, while the transmission transfers engine torque seamlessly to the road. Wear in bushings, struts, ball joints, or gearbox synchronizers degrades safety, increases tire wear, and causes harsh shifting. Shahzad Auto Garage delivers complete suspension and transmission diagnostics, component replacements, and fluid maintenance.",
     whatWeCoverTitle: "Suspension & Transmission Services",
@@ -137,8 +137,8 @@ export const servicesData = [
       "Enhances vehicle stability and cornering confidence at highway speeds"
     ],
     gallery: [
-      "/services/suspension-transmission.jpg",
-      "/services/mechanical-services.png",
+      "/services/suspension-transmission.webp",
+      "/services/mechanical-services.webp",
       "/services/engine-overhauling.webp"
     ]
   },
@@ -148,8 +148,8 @@ export const servicesData = [
     title: "Electrical Diagnostics",
     shortDescription: "Computerized OBD-II diagnostic scanning, sensor testing, ECU code pinpointing, and complex wiring fault repairs.",
     iconName: "Zap",
-    image: "/services/electrical-diagnostics.jpg",
-    heroImage: "/services/electrical-diagnostics.jpg",
+    image: "/services/electrical-diagnostics.webp",
+    heroImage: "/services/electrical-diagnostics.webp",
     heroSubtitle: "Pinpoint Diagnostic Scans & Advanced Electronic Fault Resolution.",
     overview: "Modern automobiles are sophisticated electronic networks containing dozens of microcontrollers, sensors, and actuators. When warning lights appear on your dashboard or electrical anomalies occur, guesswork can lead to expensive misdiagnoses. At Shahzad Auto Garage, we employ high-grade diagnostic scan tools, oscilloscopes, and multimeter testing to pinpoint electronic, sensor, and wiring issues quickly and accurately.",
     whatWeCoverTitle: "Electronic Diagnostic Services",
@@ -168,8 +168,8 @@ export const servicesData = [
       "Protects delicate onboard computer modules from voltage spikes and short circuits"
     ],
     gallery: [
-      "/services/electrical-diagnostics.jpg",
-      "/services/mechanical-services.png",
+      "/services/electrical-diagnostics.webp",
+      "/services/mechanical-services.webp",
       "/services/engine-overhauling.webp"
     ]
   },
@@ -179,8 +179,8 @@ export const servicesData = [
     title: "Oil Change",
     shortDescription: "Premium synthetic engine oil replacement, OEM filter change, multi-point fluid level top-ups, and complete visual safety check.",
     iconName: "Droplet",
-    image: "/services/oil-change.avif",
-    heroImage: "/services/oil-change.avif",
+    image: "/services/oil-change.webp",
+    heroImage: "/services/oil-change.webp",
     heroSubtitle: "Essential Lubrication Care for Maximum Thermal Defense & Engine Longevity.",
     overview: "Regular oil changes are the single most effective preventive maintenance task to keep your engine running smoothly. Clean oil lubricates moving components, dissipates extreme internal heat, and traps microscopic contaminants. Shahzad Auto Garage provides rapid, premium oil changes utilizing top-spec synthetic, semi-synthetic, or high-mileage lubricants tailored specifically to your vehicle's engine design.",
     whatWeCoverTitle: "Oil Change & Preventive Inspection",
@@ -199,8 +199,8 @@ export const servicesData = [
       "Includes a complimentary multi-point safety check during every oil service"
     ],
     gallery: [
-      "/services/oil-change.avif",
-      "/services/mechanical-services.png",
+      "/services/oil-change.webp",
+      "/services/mechanical-services.webp",
       "/services/engine-overhauling.webp"
     ]
   }

@@ -59,6 +59,8 @@ export default function Navbar() {
               src={garageInfo.logo} 
               alt="Shahzad Auto Garage Logo" 
               className="h-14 sm:h-16 lg:h-18 w-auto object-contain brightness-110 drop-shadow-[0_2px_12px_rgba(201,162,39,0.2)]"
+              fetchpriority="high"
+              decoding="async"
             />
           </div>
         </Link>

@@ -21,9 +21,11 @@ export default function Home() {
         {/* Hero Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?q=80&w=2000&auto=format&fit=crop" 
+            src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&w=1000&q=70&fm=webp" 
             alt="Shahzad Auto Garage Workshop" 
             className="w-full h-full object-cover object-center opacity-35 scale-105 animate-fade-in"
+            fetchpriority="high"
+            decoding="async"
           />
           {/* Gradients */}
           <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0A] via-[#0A0A0A]/70 to-black/80"></div>
@@ -141,9 +143,11 @@ export default function Home() {
             <div className="lg:col-span-6 relative">
               <div className="relative rounded-2xl overflow-hidden border border-[#262626] shadow-2xl group">
                 <img
-                  src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?q=80&w=1200&auto=format&fit=crop"
+                  src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&w=800&q=70&fm=webp"
                   alt="Technician working on engine"
                   className="w-full h-[440px] object-cover object-center group-hover:scale-105 transition-transform duration-700"
+                  loading="lazy"
+                  decoding="async"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-transparent"></div>
                 

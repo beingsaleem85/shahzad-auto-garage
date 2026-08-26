@@ -22,10 +22,10 @@ export default function ServiceCard({ service }) {
         <img
           src={service.image}
           alt={service.title}
-          className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-700 opacity-85 group-hover:opacity-100"
-          loading="lazy"
+          className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+          decoding="async"
           onError={(e) => {
-            e.currentTarget.src = "https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=1200&auto=format&fit=crop";
+            e.currentTarget.src = "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=600&q=70&fm=webp";
           }}
         />
         {/* Subtle Dark Gradient Overlay */}

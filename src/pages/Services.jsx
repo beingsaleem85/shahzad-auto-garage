@@ -52,8 +52,9 @@ export default function Services() {
                   <img 
                     src={service.image} 
                     alt={service.title} 
-                    className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 opacity-90 group-hover:opacity-100"
-                    loading="lazy"
+                    className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                    fetchpriority={idx < 4 ? "high" : "auto"}
+                    decoding="async"
                   />
                 </div>
 

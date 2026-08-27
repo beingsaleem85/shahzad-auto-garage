@@ -21,9 +21,9 @@ export default function Home() {
         {/* Hero Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&w=1000&q=70&fm=webp" 
-            alt="Shahzad Auto Garage Workshop" 
-            className="w-full h-full object-cover object-center opacity-35 scale-105 animate-fade-in"
+            src="/hero-bg.webp" 
+            alt="Shahzad Auto Garage Workshop Specialist" 
+            className="w-full h-full object-cover object-center opacity-40 scale-105 animate-fade-in"
             fetchpriority="high"
             decoding="async"
           />

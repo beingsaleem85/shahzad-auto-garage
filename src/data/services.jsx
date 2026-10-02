@@ -3,9 +3,9 @@ import React from 'react';
 export const garageInfo = {
   name: "Shahzad Auto Garage",
   tagline: "Precision Automotive Care. Built on Trust.",
-  phone: "+92 342 4797953",
-  phoneRaw: "+92342479753",
-  phoneLink: "tel:+92342479753",
+  phone: "+92 342 4793753",
+  phoneRaw: "+923424793753",
+  phoneLink: "tel:+923424793753",
   whatsapp: "+92 342 4793753",
   whatsappRaw: "923424793753",
   whatsappLink: "https://wa.me/923424793753",
@@ -216,8 +216,8 @@ export const faqsData = [
     answer: (
       <>
         You can easily reach us by calling{' '}
-        <a href="tel:+92342479753" className="text-[#E0C15A] hover:underline font-semibold">
-          +92 342 4797953
+        <a href="tel:+923424793753" className="text-[#E0C15A] hover:underline font-semibold">
+          +92 342 4793753
         </a>{' '}
         or sending us a direct message on{' '}
         <a href="https://wa.me/923424793753" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline font-semibold">
@@ -231,8 +231,8 @@ export const faqsData = [
     answer: (
       <>
         Yes, absolutely! We encourage customers to call us at{' '}
-        <a href="tel:+92342479753" className="text-[#E0C15A] hover:underline font-semibold">
-          +92 342 4797953
+        <a href="tel:+923424793753" className="text-[#E0C15A] hover:underline font-semibold">
+          +92 342 4793753
         </a>{' '}
         to discuss symptoms, get preliminary advice, or check workshop availability before coming.
       </>
@@ -271,8 +271,8 @@ export const faqsData = [
     answer: (
       <>
         If a red or amber warning light turns on, avoid heavy driving and call our specialists immediately at{' '}
-        <a href="tel:+92342479753" className="text-[#E0C15A] hover:underline font-semibold">
-          +92 342 4797953
+        <a href="tel:+923424793753" className="text-[#E0C15A] hover:underline font-semibold">
+          +92 342 4793753
         </a>{' '}
         or message us on{' '}
         <a href="https://wa.me/923424793753" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline font-semibold">

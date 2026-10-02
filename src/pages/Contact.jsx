@@ -9,7 +9,7 @@ export default function Contact() {
     <>
       <SEO 
         title="Contact & Workshop Location | Shahzad Auto Garage Islamabad"
-        description="Contact Shahzad Auto Garage directly via call (+92 342 4797953) or WhatsApp (+92 342 4793753). Located Opposite Lucky Star Cricket Stadium, G11/4 Golra Service Road, Islamabad."
+        description="Contact Shahzad Auto Garage directly via call (+92 342 4793753) or WhatsApp (+92 342 4793753). Located Opposite Lucky Star Cricket Stadium, G11/4 Golra Service Road, Islamabad."
       />
 
       {/* Hero Header */}

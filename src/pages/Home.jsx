@@ -1,17 +1,24 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Phone, ArrowRight, ShieldCheck, Activity, Eye, HeartHandshake, MapPin, Clock, Award, CheckCircle2, ChevronRight, ShieldAlert } from 'lucide-react';
-import SEO from '../components/SEO';
+import SEO, { trackEvent } from '../components/SEO';
 import ServiceCard from '../components/ServiceCard';
 import StatsCounter from '../components/StatsCounter';
-import { garageInfo, servicesData, trustPillars } from '../data/services';
+import { garageInfo, servicesData, trustPillars, faqsData, getAutoRepairSchema, getFAQPageSchema } from '../data/services';
 
 export default function Home() {
+  const homeSchemas = [
+    getAutoRepairSchema(),
+    getFAQPageSchema(faqsData.slice(0, 6))
+  ];
+
   return (
     <>
       <SEO 
-        title="Precision Automotive Care. Built on Trust." 
-        description="Shahzad Auto Garage is a premier automotive workshop in G11/4 Islamabad providing engine overhauls, brake service, electrical diagnostics, suspension repairs, and oil changes."
+        title="Auto Garage in G-11/4 Islamabad | Shahzad Auto Garage" 
+        description="Shahzad Auto Garage, Golra Service Road G-11/4 Islamabad: engine overhauling, brake service, electrical diagnostics, suspension and oil change. Call today."
+        canonicalPath="/"
+        schema={homeSchemas}
       />
 
       {/* ---------------------------------------------------- */}
@@ -22,10 +29,12 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <img 
             src="/hero-bg.webp" 
-            alt="Shahzad Auto Garage Workshop Specialist" 
+            alt="Shahzad Auto Garage Workshop Specialist in G-11/4 Islamabad" 
             className="w-full h-full object-cover object-center opacity-40 scale-105 animate-fade-in"
             fetchpriority="high"
             decoding="async"
+            width="1400"
+            height="788"
           />
           {/* Gradients */}
           <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0A] via-[#0A0A0A]/70 to-black/80"></div>
@@ -43,10 +52,9 @@ export default function Home() {
               <span>Islamabad's Premier Automotive Care</span>
             </div>
 
-            {/* Main Headline */}
+            {/* Main Headline (H1 per Step 2 directive) */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.1]">
-              Precision Automotive Care. <br className="hidden sm:inline" />
-              <span className="text-gold-gradient">Built on Trust.</span>
+              Car Repair & Auto Garage in <span className="text-gold-gradient">G-11/4, Islamabad</span>
             </h1>
 
             {/* Subtitle */}

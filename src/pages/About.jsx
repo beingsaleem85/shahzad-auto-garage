@@ -2,14 +2,21 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Phone, ShieldCheck, Wrench, CheckCircle2, Award, Sparkles, MapPin } from 'lucide-react';
 import SEO from '../components/SEO';
-import { garageInfo } from '../data/services';
+import { garageInfo, getBreadcrumbSchema } from '../data/services';
 
 export default function About() {
+  const aboutBreadcrumbs = getBreadcrumbSchema([
+    { name: 'Home', url: '/' },
+    { name: 'About Us', url: '/about' }
+  ]);
+
   return (
     <>
       <SEO 
-        title="About Us | Shahzad Auto Garage Islamabad"
-        description="Learn about Shahzad Auto Garage's commitment to precision automotive care, transparent diagnostics, engineering excellence, and customer-focused repair in G11/4 Islamabad."
+        title="About Us | Auto Repair Experts in G-11/4 Islamabad"
+        description="Learn about Shahzad Auto Garage in G-11/4 Golra Service Road, Islamabad. Master mechanics providing engine overhauls, diagnostics & precision auto repair."
+        canonicalPath="/about"
+        schema={aboutBreadcrumbs}
       />
 
       {/* Page Header / Hero */}
@@ -17,8 +24,10 @@ export default function About() {
         <div className="absolute inset-0 z-0">
           <img 
             src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?q=80&w=1600&auto=format&fit=crop" 
-            alt="Shahzad Auto Garage Workshop" 
+            alt="Shahzad Auto Garage Workshop in G-11/4 Islamabad" 
             className="w-full h-full object-cover object-center opacity-25"
+            loading="lazy"
+            decoding="async"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-[#0A0A0A] via-[#0A0A0A]/80 to-[#0A0A0A]"></div>
         </div>
@@ -28,7 +37,7 @@ export default function About() {
             About Our Workshop
           </div>
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight max-w-4xl mx-auto leading-tight">
-            Professional Automotive Care With a Commitment to Quality
+            About Shahzad Auto Garage in G-11/4, Islamabad
           </h1>
           <p className="text-sm sm:text-base text-gray-300 font-light max-w-2xl mx-auto">
             Delivering precise diagnostics, dependable mechanical maintenance, and honest client care in Islamabad.

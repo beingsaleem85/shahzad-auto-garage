@@ -9,7 +9,7 @@ export const garageInfo = {
   whatsapp: "+92 342 4793753",
   whatsappRaw: "923424793753",
   whatsappLink: "https://wa.me/923424793753",
-  address: "Opposite Lucky Star Cricket Stadium, G11/4, Golra Service Road, Islamabad",
+  address: "Opposite Lucky Star Cricket Stadium, G-11/4 Golra Service Road, Islamabad",
   locationLink: "https://share.google/w6jiCzr4mbjRdOAXS",
   hours: {
     weekdays: "Monday – Sunday: 08:00 AM – 10:00 PM",
@@ -20,59 +20,48 @@ export const garageInfo = {
 
 export const servicesData = [
   {
-    id: "mechanical-services",
-    slug: "mechanical-services",
-    title: "Mechanical Services",
-    shortDescription: "Comprehensive automotive mechanical inspection, diagnostic repair, and component maintenance executed to manufacturer standards.",
-    iconName: "Wrench",
-    image: "/services/mechanical-services.webp",
-    heroImage: "/services/mechanical-services.webp",
-    heroSubtitle: "Engineered Precision & Rigorous Mechanical Care for Optimal Vehicle Integrity.",
-    overview: "Our Mechanical Services encompass complete vehicle health assessments, structural and mechanical troubleshooting, and component restorations. Modern vehicles are complex mechanical systems that demand precise diagnosis rather than trial-and-error replacements. At Shahzad Auto Garage, our seasoned mechanical specialists utilize advanced physical diagnostic techniques and calibrated tools to solve complex drivability and mechanical issues.",
-    whatWeCoverTitle: "Comprehensive Mechanical Capabilities",
-    whatWeCover: [
-      { title: "Complete Mechanical Inspection", desc: "Comprehensive physical and operational audit of engine bays, drivelines, cooling systems, and mechanical fasteners." },
-      { title: "Engine-Related Mechanical Work", desc: "Inspection and repair of timing belts, tensioners, water pumps, drive belts, mounts, and intake systems." },
-      { title: "General Mechanical Repairs", desc: "Fixing fluid leaks, radiator replacements, hose failures, vacuum leaks, and exhaust mounting issues." },
-      { title: "Drivability Diagnostics", desc: "Addressing engine misfires, rough idling, hesitation under acceleration, and abnormal engine harmonics." },
-      { title: "Preventive Component Maintenance", desc: "Scheduled mechanical overhauls to prevent premature wear and high-cost catastrophic failures." }
-    ],
-    benefits: [
-      "Restores vehicle smoothness and original drivability characteristics",
-      "Prevents minor mechanical wear from expanding into major repair costs",
-      "Extends component longevity with OEM-grade structural fasteners and fittings",
-      "Provides transparent condition reports before any repair work commences"
-    ],
-    gallery: [
-      "/services/mechanical-services.webp",
-      "/services/engine-overhauling.webp",
-      "/services/electrical-diagnostics.webp"
-    ]
-  },
-  {
-    id: "engine-overhauling",
-    slug: "engine-overhauling",
+    id: "engine-overhauling-islamabad",
+    slug: "engine-overhauling-islamabad",
     title: "Engine Overhauling",
-    shortDescription: "Complete engine dismantling, block inspection, precision component replacement, and calibration to restore engine power and reliability.",
+    metaTitle: "Engine Overhauling in Islamabad | Shahzad Auto Garage",
+    metaDescription: "Engine overhauling in G-11/4 Islamabad at Shahzad Auto Garage. Compression restoration, piston ring replacement & engine rebuilds. Call +923424793753.",
+    h1: "Engine Overhauling Service in G-11/4, Islamabad",
+    shortDescription: "Complete engine dismantling, cylinder block inspection, precision component replacement, and factory torque calibration in Islamabad.",
     iconName: "Cpu",
     image: "/services/engine-overhauling.webp",
     heroImage: "/services/engine-overhauling.webp",
-    heroSubtitle: "Restoring Compression, Performance & Thermal Efficiency with Master Workmanship.",
-    overview: "When an engine suffers severe wear, low compression, oil consumption, or internal damage, a complete overhaul provides a reliable path to renewed performance. Our Engine Overhauling service follows a methodical, engineering-grade process: complete engine removal, deep cleaning, cylinder and head inspection, valve grinding, piston ring setting, and precision torque reassembly. We restore your engine's compression and thermal stability.",
-    whatWeCoverTitle: "The Engine Overhaul Process",
+    heroSubtitle: "Restoring Engine Compression, Horsepower & Thermal Stability in Islamabad.",
+    overview: `When an engine suffers severe wear, loss of compression, blue exhaust smoke, or excessive oil consumption, a complete engine overhaul provides a reliable, cost-effective path to renewed automotive performance. At Shahzad Auto Garage in G-11/4 Golra Service Road, Islamabad, our engine overhauling service follows an engineering-grade procedure designed to restore factory power specifications.
+
+Our master mechanics perform complete engine removal, chemical ultrasonic cleaning, micrometer bore measuring, valve grinding, piston ring setting, crankshaft journal inspection, and precision torque reassembly. Whether your Japanese, European, or local vehicle requires a full top-to-bottom engine rebuild or cylinder head overhaul, we ensure strict adherence to original manufacturer tolerances and pressure testing standards.`,
+    whatWeCoverTitle: "Engineering Steps in Our Islamabad Engine Overhaul",
     whatWeCover: [
-      { title: "Engine Condition Assessment", desc: "Compression testing, leak-down tests, and borescope inspection to determine internal wear." },
-      { title: "Systematic Dismantling", desc: "Safe removal and complete disassembly of engine block, cylinder head, pistons, and crankshaft." },
-      { title: "Cleaning & Micro-Inspection", desc: "Chemical cleaning and micrometer measurement of cylinder bores, crank journals, and valve seats." },
-      { title: "Precision Component Replacement", desc: "Replacing pistons, rings, bearings, main seals, gaskets, timing chains, and oil pumps as required." },
-      { title: "Reassembly & Torque Specs", desc: "Rebuilding the engine adhering strictly to manufacturer torque values and clearance tolerances." },
-      { title: "Bench & Dyno Thermal Testing", desc: "Initial break-in testing, oil pressure verification, thermal monitoring, and final road testing." }
+      { title: "Engine Diagnostics & Borescope Check", desc: "Compression testing, cylinder leak-down analysis, and internal borescope inspection to determine exact wear." },
+      { title: "Systematic Removal & Disassembly", desc: "Safe extraction of the engine block, cylinder head, pistons, connecting rods, and crankshaft assembly." },
+      { title: "Micro-Measurement & Chemical Cleaning", desc: "Chemical de-greasing and micrometer measurement of cylinder walls, valve seats, and bearing journals." },
+      { title: "Precision OEM Component Fitting", desc: "Installing new pistons, piston rings, main bearings, rod bearings, valve guides, timing kits, and oil pumps." },
+      { title: "Factory Torque Reassembly", desc: "Rebuilding the engine adhering strictly to manufacturer torque sequences, head bolt angles, and gasket clearances." },
+      { title: "Thermal Testing & Break-in Audit", desc: "Initial break-in procedure, oil pressure monitoring, thermal leak checking, and road testing across Islamabad." }
     ],
     benefits: [
-      "Eliminates excessive oil burning, blue exhaust smoke, and engine knocking",
-      "Restores factory horsepower, torque, and throttle responsiveness",
-      "Significantly cheaper alternative to purchasing a brand-new engine assembly",
-      "Backed by rigorous post-assembly compression and pressure testing"
+      "Eliminates excessive oil burning, blue exhaust smoke, and engine knocking noises",
+      "Restores original engine horsepower, torque response, and fuel efficiency",
+      "Cost-effective alternative to purchasing an expensive brand-new engine assembly",
+      "Backed by post-assembly compression testing and workshop satisfaction guarantee"
+    ],
+    faqs: [
+      {
+        question: "How long does a complete engine overhaul take at Shahzad Auto Garage Islamabad?",
+        answer: "A complete engine overhaul typically takes 3 to 5 business days. This allows sufficient time for precision machining, micro-inspection, component replacement, torque reassembly, and thermal break-in testing."
+      },
+      {
+        question: "What are the signs that my car needs an engine overhaul?",
+        answer: "Common warning signs include continuous blue exhaust smoke, significant oil consumption between services, knocking or banging sounds from the engine bay, severe loss of acceleration, and low cylinder compression."
+      },
+      {
+        question: "Do you offer warranty on engine rebuilding in Islamabad?",
+        answer: "Yes, all engine overhaul work at Shahzad Auto Garage includes our workshop standard guarantee covering assembly integrity, oil pressure stability, and workmanship."
+      }
     ],
     gallery: [
       "/services/engine-overhauling.webp",
@@ -81,29 +70,44 @@ export const servicesData = [
     ]
   },
   {
-    id: "brake-service",
-    slug: "brake-service",
+    id: "brake-service-islamabad",
+    slug: "brake-service-islamabad",
     title: "Brake Service",
-    shortDescription: "Precision brake inspections, rotor resurfacing, ceramic pad replacement, and hydraulic system flushing for maximum stopping power.",
+    metaTitle: "Brake Service & Repair in Islamabad | Shahzad Auto Garage",
+    metaDescription: "Professional brake service in G-11/4 Islamabad. Ceramic brake pad replacement, rotor lathe resurfacing, ABS diagnostic & fluid flush. Call today.",
+    h1: "Brake Repair & Service in G-11/4, Islamabad",
+    shortDescription: "Precision brake inspections, ceramic pad replacement, disc rotor lathe resurfacing, and synthetic brake fluid flushing for maximum stopping safety.",
     iconName: "ShieldAlert",
     image: "/services/brake-service.webp",
     heroImage: "/services/brake-service.webp",
-    heroSubtitle: "Uncompromising Brake Safety, Tactile Pedal Response & Maximum Braking Efficiency.",
-    overview: "Braking integrity is the single most critical safety aspect of any vehicle. At Shahzad Auto Garage, our Brake Service covers comprehensive physical audits of rotors, pads, calipers, lines, master cylinders, and ABS modules. Whether your vehicle is experiencing brake squeal, steering wheel vibration under braking, or a spongy brake pedal, we diagnose and rectify the exact root cause.",
-    whatWeCoverTitle: "Comprehensive Braking Care",
+    heroSubtitle: "Uncompromising Stopping Safety, Firm Pedal Feedback & Maximum Braking Efficiency.",
+    overview: `Braking integrity is the most critical safety feature of any motor vehicle. At Shahzad Auto Garage on Golra Service Road, G-11/4 Islamabad, our specialized brake service covers comprehensive physical and electronic audits of brake rotors, ceramic pads, hydraulic calipers, lines, master cylinders, and ABS modules.
+
+Whether your car is experiencing high-pitched brake squeaking, steering wheel shudder during high-speed braking, or a soft, spongy brake pedal, our experienced technicians pinpoint and resolve the underlying issue. We utilize premium ceramic brake pads and precision disc lathe machinery to ensure smooth, noise-free, immediate stopping power under all Islamabad driving conditions.`,
+    whatWeCoverTitle: "Comprehensive Brake Service & Repair Scope",
     whatWeCover: [
-      { title: "Brake System Health Audit", desc: "Thorough inspection of pad thickness, rotor runout, brake lines, and caliper piston movement." },
-      { title: "Premium Pad Replacement", desc: "Installing low-dust ceramic or heavy-duty semi-metallic brake pads for quiet, high-friction stopping." },
-      { title: "Rotor Resurfacing & Replacement", desc: "Precision lathe resurfacing of brake discs or installation of high-ventilation replacement rotors." },
-      { title: "Hydraulic Bleed & Flush", desc: "Replacing old brake fluid with high-boiling-point synthetic fluid to restore firm pedal feel." },
-      { title: "Caliper & Guide Pin Service", desc: "Cleaning, lubricating slider pins, and replacing worn rubber dust boots to prevent brake drag." },
-      { title: "ABS & Electronic Handbrake Checks", desc: "Diagnosing ABS sensor faults, traction control flags, and electronic parking brake actuators." }
+      { title: "Brake System Health & Safety Audit", desc: "Measuring pad thickness, rotor runout, caliper piston retraction, and hydraulic line pressure integrity." },
+      { title: "Ceramic & Semi-Metallic Pad Replacement", desc: "Fitting low-dust, high-friction ceramic or heavy-duty brake pads for silent, confident stopping performance." },
+      { title: "Rotor Refacing & Replacement", desc: "On-lathe disc rotor resurfacing to eliminate warping shudders, or installation of vented OEM replacement discs." },
+      { title: "Synthetic Hydraulic Fluid Bleed & Flush", desc: "Flushing old, moisture-contaminated brake fluid with high-boiling-point synthetic fluid to restore firm pedal feel." },
+      { title: "Caliper & Slider Pin Overhaul", desc: "Cleaning, lubricating slider pins, and replacing worn rubber dust boots to prevent brake drag and overheating." },
+      { title: "ABS Module & Sensor Scanning", desc: "Diagnosing ABS warning lights, traction control flags, and electronic parking brake actuator faults." }
     ],
     benefits: [
-      "Eliminates high-pitched squealing, grinding noises, and brake shudder",
-      "Significantly reduces stopping distances under emergency conditions",
-      "Restores immediate, predictable brake pedal firmness and feedback",
-      "Extends rotor and caliper lifespans by eliminating uneven friction wear"
+      "Eliminates squealing, grinding, and brake shudder during high-speed braking",
+      "Significantly reduces vehicle stopping distance under emergency braking conditions",
+      "Restores firm, immediate brake pedal response and tactile feedback",
+      "Extends rotor and caliper lifespans by eliminating uneven friction drag"
+    ],
+    faqs: [
+      {
+        question: "Why are my car brakes squeaking when I slow down?",
+        answer: "Brake squeaking is typically caused by worn brake pad wear indicators contacting the rotor, glazed pad surfaces, or low-quality brake pad friction material. Our technicians inspect pads and rotors to restore quiet braking."
+      },
+      {
+        question: "How often should brake fluid be flushed in Islamabad?",
+        answer: "We recommend flushing brake fluid every 2 years or 40,000 km, as brake fluid absorbs atmospheric moisture over time, lowering its boiling point and degrading pedal firmness."
+      }
     ],
     gallery: [
       "/services/brake-service.webp",
@@ -112,60 +116,44 @@ export const servicesData = [
     ]
   },
   {
-    id: "suspension-transmission",
-    slug: "suspension-transmission",
-    title: "Suspension & Transmission",
-    shortDescription: "Advanced suspension overhaul, strut replacement, wheel alignment checks, and smooth automatic/manual transmission repair.",
-    iconName: "Sliders",
-    image: "/services/suspension-transmission.webp",
-    heroImage: "/services/suspension-transmission.webp",
-    heroSubtitle: "Engineered Ride Comfort, Cornering Stability & Seamless Driveline Gear Changes.",
-    overview: "Your suspension system ensures ride comfort and tire traction, while the transmission transfers engine torque seamlessly to the road. Wear in bushings, struts, ball joints, or gearbox synchronizers degrades safety, increases tire wear, and causes harsh shifting. Shahzad Auto Garage delivers complete suspension and transmission diagnostics, component replacements, and fluid maintenance.",
-    whatWeCoverTitle: "Suspension & Transmission Services",
-    whatWeCover: [
-      { title: "Shock Absorber & Strut Replacement", desc: "Installing heavy-duty dampers and gas struts to eliminate body roll, excessive bouncing, and bottoming out." },
-      { title: "Suspension Linkage & Bushing Renewal", desc: "Replacing worn control arms, ball joints, tie rod ends, and stabilizer link bars." },
-      { title: "Steering Rack Inspection & Alignment", desc: "Addressing loose steering wheel play, power steering fluid leaks, and steering rack recalibration." },
-      { title: "Transmission Diagnostic & Inspection", desc: "Diagnosing delayed engagement, harsh gear hunting, slippage, or abnormal transmission whining." },
-      { title: "Transmission Fluid & Filter Replacement", desc: "Flushing burnt transmission fluid and installing fresh OEM-specified fluid with new sump pan filters." },
-      { title: "Clutch & Driveshaft Service", desc: "Manual clutch plate replacement, flywheel resurfacing, CV joint, and axle shaft repairs." }
-    ],
-    benefits: [
-      "Restores smooth, quiet, vibration-free ride quality on bumpy roads",
-      "Prevents rapid uneven tire tread wear caused by loose suspension joints",
-      "Eliminates gear slipping, delayed transmission shifts, and clunking sounds",
-      "Enhances vehicle stability and cornering confidence at highway speeds"
-    ],
-    gallery: [
-      "/services/suspension-transmission.webp",
-      "/services/mechanical-services.webp",
-      "/services/engine-overhauling.webp"
-    ]
-  },
-  {
-    id: "electrical-diagnostics",
-    slug: "electrical-diagnostics",
+    id: "electrical-diagnostics-islamabad",
+    slug: "electrical-diagnostics-islamabad",
     title: "Electrical Diagnostics",
-    shortDescription: "Computerized OBD-II diagnostic scanning, sensor testing, ECU code pinpointing, and complex wiring fault repairs.",
+    metaTitle: "Electrical Diagnostics Islamabad | Shahzad Auto Garage",
+    metaDescription: "Computerized OBD-II electrical diagnostics in G-11/4 Islamabad. ECU scanning, check engine light, alternator & wiring repairs at Shahzad Auto Garage.",
+    h1: "Car Electrical Diagnostics & ECU Scanning in Islamabad",
+    shortDescription: "Computerized OBD-II diagnostic scanning, live ECU data analysis, sensor testing, battery/alternator checks, and wiring short circuit repairs.",
     iconName: "Zap",
     image: "/services/electrical-diagnostics.webp",
     heroImage: "/services/electrical-diagnostics.webp",
-    heroSubtitle: "Pinpoint Diagnostic Scans & Advanced Electronic Fault Resolution.",
-    overview: "Modern automobiles are sophisticated electronic networks containing dozens of microcontrollers, sensors, and actuators. When warning lights appear on your dashboard or electrical anomalies occur, guesswork can lead to expensive misdiagnoses. At Shahzad Auto Garage, we employ high-grade diagnostic scan tools, oscilloscopes, and multimeter testing to pinpoint electronic, sensor, and wiring issues quickly and accurately.",
-    whatWeCoverTitle: "Electronic Diagnostic Services",
+    heroSubtitle: "Computerized OBD-II Scans & Advanced Automotive Electronic Fault Resolution.",
+    overview: `Modern vehicles are sophisticated electronic networks incorporating dozens of onboard computers (ECU, TCU, ABS, BCM), digital sensors, and high-voltage wiring looms. When warning lights illuminate on your dashboard or unexpected electrical failures occur, guesswork can lead to unnecessary, costly part replacements.
+
+At Shahzad Auto Garage in G-11/4 Islamabad, we utilize high-grade OBD-II diagnostic scanners, digital oscilloscopes, and calibrated multimeters to pinpoint electronic sensor failures, charging circuit faults, starter issues, and wiring shorts quickly and accurately. We provide clear code diagnostics and transparent electronic repair solutions for all Japanese, European, and local vehicles.`,
+    whatWeCoverTitle: "Complete Auto Electrical & Electronic Services",
     whatWeCover: [
-      { title: "Computerized Scan & Live Data Analysis", desc: "Interrogating ECU, TCU, ABS, and BCM modules to extract fault codes and monitor real-time sensor parameters." },
-      { title: "Check Engine Light Diagnosis", desc: "Identifying the precise root cause behind illumination of engine, oil pressure, or battery warning icons." },
-      { title: "Battery, Starter & Alternator Testing", desc: "Measuring cold cranking amps (CCA), charging voltage, and parasitic battery drain tests." },
-      { title: "Sensor Diagnostics & Calibration", desc: "Testing O2 sensors, MAF sensors, crankshaft position sensors, throttle bodies, and knock sensors." },
-      { title: "Wiring Harness & Relay Troubleshooting", desc: "Tracing short circuits, broken grounds, corroded connectors, and faulty electrical relays." },
-      { title: "Lighting & Auxiliary Electrical Repair", desc: "Headlight wiring overhauls, power window switches, central locking systems, and instrument cluster fixes." }
+      { title: "Computerized OBD-II ECU Scanning", desc: "Interrogating onboard computer modules to read live data streams, freeze-frame data, and diagnostic trouble codes (DTCs)." },
+      { title: "Check Engine Light Troubleshooting", desc: "Pinpointing exact sensor failures behind amber or red dashboard warning icons before clearing codes." },
+      { title: "Battery, Alternator & Starter Testing", desc: "Measuring battery cold cranking amps (CCA), alternator charging voltage, and parasitic current drain." },
+      { title: "Electronic Sensor Testing & Calibration", desc: "Testing and calibrating oxygen (O2) sensors, MAF sensors, crankshaft/camshaft position sensors, and throttle bodies." },
+      { title: "Wiring Loom & Short Circuit Repairs", desc: "Tracing short circuits, open grounds, corroded wiring connectors, and blown fuse relays." },
+      { title: "Auxiliary Electrical & Lighting Overhaul", desc: "Repairing headlight wiring, power window motors, central locking actuators, and instrument cluster gauges." }
     ],
     benefits: [
-      "Fast, accurate diagnosis eliminating expensive guess-and-check part swaps",
-      "Resolves persistent Check Engine lights and clears stored diagnostic trouble codes",
-      "Ensures stable battery charging and reliable engine starting in all weather conditions",
-      "Protects delicate onboard computer modules from voltage spikes and short circuits"
+      "Eliminates trial-and-error part swapping through precise electronic diagnostic fault detection",
+      "Resolves persistent Check Engine lights, ABS warnings, and electronic stability control flags",
+      "Ensures stable battery charging and reliable engine ignition starting in all weather conditions",
+      "Protects expensive onboard vehicle computer modules from harmful electrical voltage spikes"
+    ],
+    faqs: [
+      {
+        question: "Can I drive my car if the Check Engine light comes on?",
+        answer: "If the Check Engine light is solid, you can drive carefully to our workshop in G-11/4 Islamabad. However, if the light is flashing, pull over safely and call us immediately, as a flashing light indicates a severe misfire that can damage the catalytic converter."
+      },
+      {
+        question: "How long does a computerized OBD-II scan take?",
+        answer: "A standard OBD-II diagnostic scan takes approximately 20 to 30 minutes, during which we scan all electronic modules, review live parameter data, and provide a detailed diagnostic report."
+      }
     ],
     gallery: [
       "/services/electrical-diagnostics.webp",
@@ -174,29 +162,136 @@ export const servicesData = [
     ]
   },
   {
-    id: "oil-change",
-    slug: "oil-change",
+    id: "suspension-repair-islamabad",
+    slug: "suspension-repair-islamabad",
+    title: "Suspension Repair",
+    metaTitle: "Suspension Repair in Islamabad | Shahzad Auto Garage",
+    metaDescription: "Suspension repair & shock absorber replacement in G-11/4 Islamabad. Struts, control arms, ball joints & bushing overhauls at Shahzad Auto Garage.",
+    h1: "Car Suspension Repair & Shock Absorber Service in Islamabad",
+    shortDescription: "Complete suspension overhaul, shock absorber replacement, control arm bushing renewal, and steering linkage inspection in G-11/4 Islamabad.",
+    iconName: "Sliders",
+    image: "/services/suspension-transmission.webp",
+    heroImage: "/services/suspension-transmission.webp",
+    heroSubtitle: "Smooth Ride Quality, Cornering Stability & Noise-Free Suspension Performance.",
+    overview: `Your vehicle's suspension system maintains tire contact with the road while absorbing bumps, potholes, and road vibrations. Over time, Islamabad road conditions wear out shock absorbers, gas struts, rubber control arm bushings, ball joints, and tie rod links. Worn suspension components compromise steering control, increase braking distance, and cause rapid uneven tire wear.
+
+At Shahzad Auto Garage in G-11/4 Golra Service Road, Islamabad, our suspension repair specialists inspect and rebuild front and rear suspension systems. We replace leaking shock absorbers, press in heavy-duty polyurethane or OEM rubber bushings, replace loose ball joints, and restore original factory ride smoothness and cornering confidence.`,
+    whatWeCoverTitle: "Suspension Component Inspection & Repair Scope",
+    whatWeCover: [
+      { title: "Shock Absorber & Gas Strut Replacement", desc: "Replacing worn, leaking shocks and struts to eliminate vehicle bouncing, body roll, and bottoming out." },
+      { title: "Control Arm & Bushing Pressing", desc: "Replacing worn lower and upper control arm rubber bushings to eliminate clunking sounds over bumps." },
+      { title: "Ball Joint & Tie Rod End Renewal", desc: "Inspecting and replacing loose ball joints, inner tie rods, and outer steering rack ends for precise steering." },
+      { title: "Sway Bar & Link Bushing Service", desc: "Installing heavy-duty stabilizer link bars and sway bar D-bushings for flat, stable cornering." },
+      { title: "Steering Rack & Power Steering Check", desc: "Diagnosing steering wheel play, power steering fluid leaks, rack boots, and steering column joints." },
+      { title: "Underbody Fastener Torque Audit", desc: "Retorquing subframe bolts, suspension mounts, and strut tower nuts to original engineering specifications." }
+    ],
+    benefits: [
+      "Restores smooth, quiet, vibration-free ride quality across rough Islamabad roads",
+      "Prevents expensive uneven tire tread wear caused by worn control arms and ball joints",
+      "Eliminates harsh clunking, squeaking, and knocking noises over speed bumps",
+      "Enhances vehicle handling, high-speed stability, and steering responsiveness"
+    ],
+    faqs: [
+      {
+        question: "How do I know if my car shock absorbers are worn out?",
+        answer: "Signs of worn shock absorbers include excessive bouncing after hitting a bump, oil leaking down the side of the shock absorber body, vehicle dipping forward under braking, and unusual tyre cupping wear."
+      },
+      {
+        question: "Do you install OEM suspension parts in Islamabad?",
+        answer: "Yes, we install genuine OEM suspension parts or high-grade aftermarket shock absorbers and bushings according to customer preference and vehicle requirements."
+      }
+    ],
+    gallery: [
+      "/services/suspension-transmission.webp",
+      "/services/mechanical-services.webp",
+      "/services/engine-overhauling.webp"
+    ]
+  },
+  {
+    id: "transmission-repair-islamabad",
+    slug: "transmission-repair-islamabad",
+    title: "Transmission Repair",
+    metaTitle: "Transmission Repair Islamabad | Shahzad Auto Garage",
+    metaDescription: "Automatic & manual transmission repair in G-11/4 Islamabad. Transmission fluid flush, gear shift troubleshooting & clutch overhaul at Shahzad Garage.",
+    h1: "Automatic & Manual Transmission Repair in Islamabad",
+    shortDescription: "Automatic CVT/AT transmission fluid flushing, gear shift troubleshooting, clutch plate replacement, and driveline maintenance in G-11/4 Islamabad.",
+    iconName: "Sliders",
+    image: "/services/suspension-transmission.webp",
+    heroImage: "/services/suspension-transmission.webp",
+    heroSubtitle: "Seamless Gear Changes, Transmission Fluid Care & Smooth Power Delivery.",
+    overview: `The transmission is a complex mechanical and hydraulic component that transfers engine power to your drive wheels. Whether your car has an automatic (CVT, Dual-Clutch, Conventional Torque Converter) or manual gearbox, proper transmission maintenance and fluid service are essential to prevent costly driveline failures.
+
+At Shahzad Auto Garage on Golra Service Road, G-11/4 Islamabad, we specialize in diagnostic troubleshooting, transmission fluid and filter replacements, gear shift solenoid repairs, clutch disc overhauls, CV joint replacements, and differential servicing. We diagnose gear slipping, delayed engagement, harsh shifting, and abnormal gearbox whining with precision.`,
+    whatWeCoverTitle: "Transmission & Driveline Service Scope",
+    whatWeCover: [
+      { title: "Automatic Transmission Fluid (ATF/CVT) Flush", desc: "Draining degraded fluid, replacing sump pan filters, and refilling with exact OEM-specified CVT or ATF fluid." },
+      { title: "Manual Transmission & Clutch Overhaul", desc: "Replacing worn clutch discs, pressure plates, release bearings, and resurfacing flywheels for crisp gear engagement." },
+      { title: "Gear Shift Diagnostic & Solenoid Testing", desc: "Scanning transmission control modules (TCU) and testing electronic shift solenoids for smooth gear transitions." },
+      { title: "CV Axle Joint & Boot Replacement", desc: "Replacing torn constant velocity (CV) boots and worn drive axle joints to eliminate clicking sounds on full turns." },
+      { title: "Differential & Transfer Case Maintenance", desc: "Replacing gear oil in front/rear differentials and transfer cases to prevent gear whining and tooth wear." },
+      { title: "Transmission Fluid Leak Repairs", desc: "Replacing worn torque converter seals, output shaft seals, pan gaskets, and cooler lines." }
+    ],
+    benefits: [
+      "Eliminates gear slipping, delayed acceleration, and harsh gear shift thumps",
+      "Extends automatic transmission gearbox life by removing internal thermal sludge",
+      "Restores smooth, light manual clutch pedal action and precise gear selection",
+      "Prevents total transmission failure through timely fluid and filter maintenance"
+    ],
+    faqs: [
+      {
+        question: "How often should CVT / Automatic transmission fluid be changed?",
+        answer: "Automatic and CVT transmission fluid should generally be replaced every 40,000 to 50,000 km, or according to manufacturer recommendations. Clean fluid prevents CVT belt slippage and solenoid clogging."
+      },
+      {
+        question: "Why is my car making a clicking noise when turning?",
+        answer: "A sharp clicking or popping noise when turning tightly usually indicates a worn outer CV axle joint or torn rubber grease boot. We replace CV joints to protect drive axle safety."
+      }
+    ],
+    gallery: [
+      "/services/suspension-transmission.webp",
+      "/services/mechanical-services.webp",
+      "/services/engine-overhauling.webp"
+    ]
+  },
+  {
+    id: "oil-change-islamabad",
+    slug: "oil-change-islamabad",
     title: "Oil Change",
-    shortDescription: "Premium synthetic engine oil replacement, OEM filter change, multi-point fluid level top-ups, and complete visual safety check.",
+    metaTitle: "Oil Change Service in Islamabad | Shahzad Auto Garage",
+    metaDescription: "Synthetic engine oil change in G-11/4 Islamabad. Genuine oil filters, multi-point fluid top-ups & safety inspection at Shahzad Auto Garage.",
+    h1: "Engine Oil Change & Preventive Maintenance in Islamabad",
+    shortDescription: "Synthetic and semi-synthetic engine oil replacements, OEM filter changes, fluid level top-ups, and a 20-point visual safety check in G-11/4 Islamabad.",
     iconName: "Droplet",
     image: "/services/oil-change.webp",
     heroImage: "/services/oil-change.webp",
-    heroSubtitle: "Essential Lubrication Care for Maximum Thermal Defense & Engine Longevity.",
-    overview: "Regular oil changes are the single most effective preventive maintenance task to keep your engine running smoothly. Clean oil lubricates moving components, dissipates extreme internal heat, and traps microscopic contaminants. Shahzad Auto Garage provides rapid, premium oil changes utilizing top-spec synthetic, semi-synthetic, or high-mileage lubricants tailored specifically to your vehicle's engine design.",
-    whatWeCoverTitle: "Oil Change & Preventive Inspection",
+    heroSubtitle: "Essential Synthetic Lubrication for Thermal Defense, Mileage & Engine Protection.",
+    overview: `Regular engine oil changes are the single most effective preventive maintenance routine to protect your vehicle's engine. Fresh, high-grade motor oil lubricates internal moving components, dissipates extreme combustion heat, cleans carbon deposits, and prevents metallic friction wear.
+
+Shahzad Auto Garage in G-11/4 Golra Service Road, Islamabad provides rapid, meticulous oil change services using top-spec fully synthetic, semi-synthetic, and high-mileage lubricants tailored specifically to your vehicle's engine displacement and viscosity requirements (0W-20, 5W-30, 10W-40, 20W-50). Every oil change includes a genuine filter replacement and a complimentary multi-point vehicle safety inspection.`,
+    whatWeCoverTitle: "Oil Change & Inspection Service Steps",
     whatWeCover: [
-      { title: "Old Oil Drain & Sump Inspection", desc: "Complete drainage of degraded engine oil while checking for metallic shavings or thermal degradation." },
-      { title: "Premium Engine Oil Refill", desc: "Filling with correct viscosity synthetic or semi-synthetic oil meeting manufacturer specifications." },
-      { title: "OEM Quality Oil Filter Change", desc: "Replacing the oil filter with a high-efficiency filter element to ensure optimal oil flow and dirt capture." },
-      { title: "Multi-Fluid Level Top-Up", desc: "Checking and topping up coolant/antifreeze, brake fluid, power steering fluid, and windshield washer reservoir." },
-      { title: "Comprehensive Visual Under-Hood Check", desc: "Inspecting air filter, cabin filter, drive belts, radiator hoses, and battery terminals." },
-      { title: "Service Interval Counter Reset", desc: "Resetting your vehicle's digital oil maintenance indicator light and attaching a clear service sticker." }
+      { title: "Complete Thermal Oil Drain", desc: "Draining old degraded engine oil completely while inspecting magnetic drain plug for metal particles." },
+      { title: "Viscosity-Matched Engine Oil Refill", desc: "Refilling with fresh fully synthetic or semi-synthetic oil matching exact vehicle manufacturer specifications." },
+      { title: "OEM Quality Oil Filter Change", desc: "Replacing the oil filter element with a high-grade filter to ensure clean oil circulation." },
+      { title: "Under-Hood Fluid Top-Ups", desc: "Checking and topping off radiator coolant, brake fluid, power steering fluid, and windshield washer fluid." },
+      { title: "20-Point Visual Safety Inspection", desc: "Inspecting air filter, cabin filter, serpentine drive belt, radiator hoses, battery terminals, and tire pressure." },
+      { title: "Digital Service Counter Reset", desc: "Resetting dashboard oil service indicators and attaching a clear, durable maintenance reminder sticker." }
     ],
     benefits: [
-      "Protects internal engine bearings, camshafts, and pistons from excessive friction",
-      "Maintains optimal fuel economy by reducing internal mechanical drag",
-      "Keeps engine interior clean from sludge and varnish deposits",
-      "Includes a complimentary multi-point safety check during every oil service"
+      "Protects internal engine bearings, camshafts, and pistons from friction wear",
+      "Improves fuel economy and engine thermal stability under heavy city driving",
+      "Keeps engine crankcase clean from harmful sludge, varnish, and carbon deposits",
+      "Includes a complimentary multi-point safety check during every oil change visit"
+    ],
+    faqs: [
+      {
+        question: "How often should I change engine oil in Islamabad?",
+        answer: "For fully synthetic oil, we recommend changing every 8,000 to 10,000 km or 6 months. For semi-synthetic oil, change every 5,000 km to maintain optimal lubrication."
+      },
+      {
+        question: "Which engine oil viscosity is best for my car?",
+        answer: "Viscosity depends on your vehicle make, engine age, and mileage. Modern hybrid and Japanese cars typically use 0W-20 or 5W-30, while higher-mileage engines may require 10W-40. Our technicians will guide you on the exact recommended spec."
+      }
     ],
     gallery: [
       "/services/oil-change.webp",
@@ -208,8 +303,8 @@ export const servicesData = [
 
 export const faqsData = [
   {
-    question: "What core automotive services does Shahzad Auto Garage provide?",
-    answer: "We provide six core specialized service categories: Mechanical Services, Engine Overhauling, Brake Service, Suspension & Transmission, Electrical Diagnostics, and Oil Change. Each service is performed by experienced technicians using precision tools and diagnostic equipment."
+    question: "What core automotive services does Shahzad Auto Garage provide in Islamabad?",
+    answer: "We provide six core specialized service categories: Engine Overhauling, Brake Service & Disc Resurfacing, Computerized Electrical Diagnostics, Suspension Overhaul, Transmission Repair, and Synthetic Oil Changes. Each service is performed by experienced technicians using precision tools in G-11/4 Islamabad."
   },
   {
     question: "How can I book a service or consultation at Shahzad Auto Garage?",
@@ -222,7 +317,7 @@ export const faqsData = [
         or sending us a direct message on{' '}
         <a href="https://wa.me/923424793753" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline font-semibold">
           WhatsApp at +92 342 4793753
-        </a>. You can also visit our workshop directly in G11/4 Islamabad during operating hours.
+        </a>. You can also visit our workshop directly along Golra Service Road, G-11/4 Islamabad during operating hours.
       </>
     )
   },
@@ -242,7 +337,7 @@ export const faqsData = [
     question: "Where is Shahzad Auto Garage located in Islamabad?",
     answer: (
       <>
-        Our garage is conveniently located Opposite Lucky Star Cricket Stadium, G11/4, Golra Service Road, Islamabad. You can click our{' '}
+        Our garage is conveniently located Opposite Lucky Star Cricket Stadium, G-11/4 Golra Service Road, Islamabad. You can click our{' '}
         <a href="https://share.google/w6jiCzr4mbjRdOAXS" target="_blank" rel="noopener noreferrer" className="text-[#E0C15A] hover:underline font-semibold">
           Google Maps Link
         </a>{' '}
@@ -251,19 +346,19 @@ export const faqsData = [
     )
   },
   {
-    question: "Do you perform complete engine overhauls?",
-    answer: "Yes. Our Engine Overhauling service covers complete diagnostic assessments, engine dismantling, thorough cleaning, cylinder and head inspection, precision valve/ring/bearing replacement, reassembly to factory torque specs, and rigorous pressure testing."
+    question: "Do you perform complete engine overhauls in Islamabad?",
+    answer: "Yes. Our Engine Overhauling service covers complete diagnostic assessments, engine dismantling, thorough cleaning, cylinder and head inspection, precision valve/ring/bearing replacement, reassembly to factory torque specs, and pressure testing."
   },
   {
-    question: "Do you offer brake inspection and servicing?",
-    answer: "Yes, our Brake Service includes checking pad thickness, rotor condition, brake lines, calipers, hydraulic fluid flushing, and diagnosing ABS or handbrake issues to ensure safety and stopping performance."
+    question: "Do you offer brake inspection and disc resurfacing?",
+    answer: "Yes, our Brake Service includes checking pad thickness, rotor condition, brake lines, calipers, hydraulic fluid flushing, disc lathe resurfacing, and diagnosing ABS or handbrake issues to ensure stopping safety."
   },
   {
     question: "Can you diagnose complex check engine lights and electrical problems?",
     answer: "Yes. We use advanced computerized OBD-II scan equipment, live data stream monitoring, and electrical testing to diagnose electronic faults, sensor failures, starter/alternator issues, and wiring problems accurately."
   },
   {
-    question: "Do you perform regular oil changes and preventive maintenance?",
+    question: "Do you perform regular synthetic oil changes?",
     answer: "Yes, we provide synthetic and semi-synthetic oil changes paired with OEM filter replacements and a complimentary multi-point visual inspection of fluids, belts, and hoses."
   },
   {
@@ -289,7 +384,7 @@ export const faqsData = [
         <a href="https://share.google/w6jiCzr4mbjRdOAXS" target="_blank" rel="noopener noreferrer" className="text-[#E0C15A] hover:underline font-semibold">
           Google Maps Link
         </a>{' '}
-        to navigate straight to our workshop.
+        to navigate straight to our workshop in G-11/4 Islamabad.
       </>
     )
   }
@@ -298,22 +393,109 @@ export const faqsData = [
 export const trustPillars = [
   {
     title: "Precision Diagnostics",
-    desc: "State-of-the-art diagnostic equipment to pinpoint exact issues before touching a bolt.",
+    desc: "Computerized diagnostic scan tools and physical testing to pinpoint exact issues before touching a bolt.",
     icon: "Activity"
   },
   {
     title: "Master Workmanship",
-    desc: "Experienced, passionate automotive specialists who adhere strictly to engineering standards.",
+    desc: "Experienced, passionate automotive specialists who adhere strictly to manufacturer engineering standards.",
     icon: "ShieldCheck"
   },
   {
     title: "Transparent Service",
-    desc: "Clear communication regarding required repairs, replaced parts, and realistic timelines.",
+    desc: "Clear communication regarding required repairs, OEM replaced parts, and realistic repair timelines.",
     icon: "Eye"
   },
   {
     title: "Customer First Focus",
-    desc: "Building long-term relationships through reliability, integrity, and direct client care.",
+    desc: "Building long-term client relationships through reliability, integrity, and direct garage care.",
     icon: "HeartHandshake"
   }
 ];
+
+/**
+ * SCHEMA GENERATOR UTILITIES FOR JSON-LD
+ */
+export const getAutoRepairSchema = () => ({
+  "@context": "https://schema.org",
+  "@type": "AutoRepair",
+  "@id": "https://www.shahzadautogarage.com/#organization",
+  "name": "Shahzad Auto Garage",
+  "url": "https://www.shahzadautogarage.com",
+  "logo": "https://www.shahzadautogarage.com/logo/shahzad%20auto%20garage%20logo.webp",
+  "image": "https://www.shahzadautogarage.com/hero-bg.webp",
+  "telephone": garageInfo.phoneRaw,
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Opposite Lucky Star Cricket Stadium, G-11/4 Golra Service Road",
+    "addressLocality": "Islamabad",
+    "addressRegion": "Islamabad Capital Territory",
+    "postalCode": "44000",
+    "addressCountry": "PK"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 33.6766,
+    "longitude": 72.9805
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "08:00",
+      "closes": "22:00"
+    }
+  ],
+  "areaServed": [
+    { "@type": "City", "name": "Islamabad" },
+    { "@type": "City", "name": "Rawalpindi" }
+  ],
+  "sameAs": [
+    garageInfo.locationLink,
+    "https://www.facebook.com/TODO_SHAHZAD_AUTO_GARAGE",
+    "https://www.instagram.com/TODO_SHAHZAD_AUTO_GARAGE"
+  ]
+});
+
+export const getServiceSchema = (service) => ({
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": service.title,
+  "name": service.metaTitle,
+  "provider": {
+    "@type": "AutoRepair",
+    "@id": "https://www.shahzadautogarage.com/#organization",
+    "name": "Shahzad Auto Garage",
+    "telephone": garageInfo.phoneRaw
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Islamabad"
+  },
+  "description": service.metaDescription
+});
+
+export const getFAQPageSchema = (faqList) => ({
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqList.map(item => ({
+    "@type": "Question",
+    "name": item.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": typeof item.answer === 'string' ? item.answer : "Contact Shahzad Auto Garage at +92 342 4793753 or via WhatsApp for full details."
+    }
+  }))
+});
+
+export const getBreadcrumbSchema = (items) => ({
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": items.map((item, index) => ({
+    "@type": "ListItem",
+    "position": index + 1,
+    "name": item.name,
+    "item": item.url.startsWith('http') ? item.url : `https://www.shahzadautogarage.com${item.url.startsWith('/') ? item.url : `/${item.url}`}`
+  }))
+});

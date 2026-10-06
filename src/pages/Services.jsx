@@ -3,14 +3,21 @@ import { Link } from 'react-router-dom';
 import { Phone, ArrowRight, CheckCircle2, ShieldCheck } from 'lucide-react';
 import SEO from '../components/SEO';
 import ServiceCard from '../components/ServiceCard';
-import { garageInfo, servicesData } from '../data/services';
+import { garageInfo, servicesData, getBreadcrumbSchema } from '../data/services';
 
 export default function Services() {
+  const servicesBreadcrumbs = getBreadcrumbSchema([
+    { name: 'Home', url: '/' },
+    { name: 'Services', url: '/services' }
+  ]);
+
   return (
     <>
       <SEO 
-        title="Automotive Services | Shahzad Auto Garage Islamabad"
-        description="Explore Shahzad Auto Garage's 6 core services: Mechanical Services, Engine Overhauling, Brake Service, Suspension & Transmission, Electrical Diagnostics, and Oil Change in G11/4 Islamabad."
+        title="Car Repair Services in G-11/4 Islamabad | Shahzad Garage"
+        description="Explore auto repair services at Shahzad Auto Garage Islamabad: engine overhauling, brake service, electrical diagnostics, suspension, transmission & oil change."
+        canonicalPath="/services"
+        schema={servicesBreadcrumbs}
       />
 
       {/* Hero Header */}
@@ -18,8 +25,10 @@ export default function Services() {
         <div className="absolute inset-0 z-0">
           <img 
             src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1600&auto=format&fit=crop" 
-            alt="Automotive Workshop Services" 
+            alt="Shahzad Auto Garage Services in Islamabad" 
             className="w-full h-full object-cover object-center opacity-25"
+            loading="lazy"
+            decoding="async"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-[#0A0A0A] via-[#0A0A0A]/85 to-[#0A0A0A]"></div>
         </div>
@@ -29,10 +38,10 @@ export default function Services() {
             Expert Automotive Care
           </div>
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight max-w-3xl mx-auto">
-            Our Specialist Garage Services
+            Auto Repair & Maintenance Services in Islamabad
           </h1>
           <p className="text-sm sm:text-base text-gray-300 font-light max-w-2xl mx-auto leading-relaxed">
-            Discover our comprehensive spectrum of mechanical repair, engine rebuilding, electronic diagnostic, brake safety, suspension tuning, and maintenance services.
+            Discover our comprehensive spectrum of mechanical repair, engine rebuilding, electronic diagnostic, brake safety, suspension tuning, and maintenance services in G-11/4 Islamabad.
           </p>
         </div>
       </section>

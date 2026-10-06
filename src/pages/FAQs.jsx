@@ -1,22 +1,28 @@
 import React, { useState } from 'react';
 import { Phone, HelpCircle, MapPin } from 'lucide-react';
 import WhatsAppIcon from '../components/WhatsAppIcon';
-import SEO from '../components/SEO';
+import SEO, { trackEvent } from '../components/SEO';
 import FAQAccordion from '../components/FAQAccordion';
-import { faqsData, garageInfo } from '../data/services';
+import { faqsData, garageInfo, getFAQPageSchema, getBreadcrumbSchema } from '../data/services';
 
 export default function FAQs() {
   const [openIndex, setOpenIndex] = useState(0);
 
-  const handleToggle = (idx) => {
-    setOpenIndex(prevIndex => (prevIndex === idx ? null : idx));
-  };
+  const faqSchemas = [
+    getFAQPageSchema(faqsData),
+    getBreadcrumbSchema([
+      { name: 'Home', url: '/' },
+      { name: 'FAQs', url: '/faqs' }
+    ])
+  ];
 
   return (
     <>
       <SEO 
-        title="Frequently Asked Questions | Shahzad Auto Garage Islamabad"
-        description="Find answers to common questions about services, location in G11/4 Islamabad, phone bookings, engine overhauling, diagnostics, and brake services at Shahzad Auto Garage."
+        title="Car Repair FAQs Islamabad | Shahzad Auto Garage"
+        description="Frequently asked questions about car repair, engine overhauls, brake service, electrical diagnostics & location at Shahzad Auto Garage in G-11/4 Islamabad."
+        canonicalPath="/faqs"
+        schema={faqSchemas}
       />
 
       {/* Hero Header */}
@@ -24,8 +30,10 @@ export default function FAQs() {
         <div className="absolute inset-0 z-0">
           <img 
             src="https://images.unsplash.com/photo-1551522435-a13afa10f103?q=80&w=1600&auto=format&fit=crop" 
-            alt="Automotive Garage FAQs" 
+            alt="Shahzad Auto Garage FAQs in Islamabad" 
             className="w-full h-full object-cover object-center opacity-20"
+            loading="lazy"
+            decoding="async"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-[#0A0A0A] via-[#0A0A0A]/85 to-[#0A0A0A]"></div>
         </div>
@@ -35,7 +43,7 @@ export default function FAQs() {
             Client Information
           </div>
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight max-w-3xl mx-auto">
-            Frequently Asked Questions
+            Car Repair & Maintenance FAQs in Islamabad
           </h1>
           <p className="text-sm sm:text-base text-gray-300 font-light max-w-2xl mx-auto leading-relaxed">
             Have questions regarding our workshop services, location in G11/4 Islamabad, or how to contact our technicians? Find immediate answers below.

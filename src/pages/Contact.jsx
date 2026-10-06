@@ -1,15 +1,25 @@
 import React from 'react';
 import { Phone, MapPin, ExternalLink, Clock, Navigation, ShieldCheck } from 'lucide-react';
 import WhatsAppIcon from '../components/WhatsAppIcon';
-import SEO from '../components/SEO';
-import { garageInfo } from '../data/services';
+import SEO, { trackEvent } from '../components/SEO';
+import { garageInfo, getAutoRepairSchema, getBreadcrumbSchema } from '../data/services';
 
 export default function Contact() {
+  const contactSchemas = [
+    getAutoRepairSchema(),
+    getBreadcrumbSchema([
+      { name: 'Home', url: '/' },
+      { name: 'Contact Us', url: '/contact' }
+    ])
+  ];
+
   return (
     <>
       <SEO 
-        title="Contact & Workshop Location | Shahzad Auto Garage Islamabad"
-        description="Contact Shahzad Auto Garage directly via call (+92 342 4793753) or WhatsApp (+92 342 4793753). Located Opposite Lucky Star Cricket Stadium, G11/4 Golra Service Road, Islamabad."
+        title="Contact & Location | Shahzad Auto Garage G-11/4 Islamabad"
+        description="Contact Shahzad Auto Garage in G-11/4 Golra Service Road, Islamabad. Call +923424793753 or visit for engine overhauling, brakes & diagnostic repairs."
+        canonicalPath="/contact"
+        schema={contactSchemas}
       />
 
       {/* Hero Header */}
@@ -17,21 +27,23 @@ export default function Contact() {
         <div className="absolute inset-0 z-0">
           <img 
             src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?q=80&w=1600&auto=format&fit=crop" 
-            alt="Shahzad Auto Garage Location" 
+            alt="Shahzad Auto Garage Workshop Location G-11/4 Islamabad" 
             className="w-full h-full object-cover object-center opacity-25"
+            loading="lazy"
+            decoding="async"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-[#0A0A0A] via-[#0A0A0A]/85 to-[#0A0A0A]"></div>
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#121212] border border-[#C9A227]/30 text-[#C9A227] text-xs font-semibold uppercase tracking-widest">
-            Contact
+            Contact Us
           </div>
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight max-w-3xl mx-auto">
-            Contact & Workshop Location
+            Contact Shahzad Auto Garage in G-11/4, Islamabad
           </h1>
           <p className="text-sm sm:text-base text-gray-300 font-light max-w-2xl mx-auto leading-relaxed">
-            Reach out to our technicians directly by phone or WhatsApp, or visit our garage in G11/4 Islamabad.
+            Reach out to our technicians directly by phone or WhatsApp, or visit our garage along Golra Service Road in G-11/4 Islamabad.
           </p>
         </div>
       </section>
@@ -56,6 +68,7 @@ export default function Contact() {
 
               <a
                 href={garageInfo.phoneLink}
+                onClick={() => trackEvent('click_phone', { location: 'contact_card' })}
                 className="w-full flex items-center justify-center gap-2.5 py-3.5 px-6 text-xs font-bold uppercase tracking-wider text-black bg-gradient-to-r from-[#C9A227] to-[#E0C15A] hover:brightness-110 rounded-full shadow-lg shadow-[#C9A227]/20 transition-all"
               >
                 <Phone className="w-4 h-4 fill-black stroke-none" />
@@ -78,6 +91,7 @@ export default function Contact() {
                 href={garageInfo.whatsappLink}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => trackEvent('click_whatsapp', { location: 'contact_card' })}
                 className="w-full flex items-center justify-center gap-2.5 py-3.5 px-6 text-xs font-bold uppercase tracking-wider text-emerald-300 bg-emerald-950/60 border border-emerald-500/40 hover:bg-emerald-900/60 rounded-full transition-all"
               >
                 <WhatsAppIcon className="w-4 h-4 fill-emerald-400" />
@@ -100,6 +114,7 @@ export default function Contact() {
                 href={garageInfo.locationLink}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => trackEvent('click_location', { location: 'contact_card' })}
                 className="w-full flex items-center justify-center gap-2.5 py-3.5 px-6 text-xs font-bold uppercase tracking-wider text-[#E0C15A] bg-[#1A1A1A] hover:bg-[#262626] border border-[#C9A227]/40 rounded-full transition-all"
               >
                 <Navigation className="w-4 h-4 text-[#C9A227]" />
@@ -116,10 +131,10 @@ export default function Contact() {
               <div>
                 <h2 className="text-xl font-bold text-white flex items-center gap-2">
                   <MapPin className="w-5 h-5 text-[#C9A227]" />
-                  <span>Workshop Location & Map</span>
+                  <span>Workshop Location & Google Map</span>
                 </h2>
                 <p className="text-xs text-gray-400 font-light mt-1">
-                  Opposite Lucky Star Cricket Stadium, G11/4, Golra Service Road, Islamabad
+                  Opposite Lucky Star Cricket Stadium, G-11/4 Golra Service Road, Islamabad
                 </p>
               </div>
 
@@ -127,6 +142,7 @@ export default function Contact() {
                 href={garageInfo.locationLink}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => trackEvent('click_location', { location: 'contact_map_header' })}
                 className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#C9A227] hover:bg-[#E0C15A] text-black text-xs font-bold uppercase tracking-wider rounded-full transition-all"
               >
                 <span>Open Google Maps</span>
@@ -137,7 +153,7 @@ export default function Contact() {
             {/* Map Frame Container */}
             <div className="relative w-full h-[450px] rounded-2xl overflow-hidden border border-[#262626] bg-[#121212]">
               <iframe
-                title="Shahzad Auto Garage Location Map"
+                title="Shahzad Auto Garage Location Map G-11/4 Islamabad"
                 src="https://maps.google.com/maps?q=Shahzad+Auto+Garage,+G-11/4,+Golra+Service+Road,+Islamabad&t=&z=16&ie=UTF8&iwloc=B&output=embed"
                 width="100%"
                 height="100%"
@@ -153,7 +169,7 @@ export default function Contact() {
                 <div className="text-[11px] text-gray-300">Opposite Lucky Star Cricket Stadium, G11/4, Islamabad</div>
                 <div className="text-[10px] text-emerald-400 font-semibold flex items-center gap-1.5 pt-1">
                   <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
-                  <span>Workshop Ready & Accessible</span>
+                  <span>Workshop Accessible & Open</span>
                 </div>
               </div>
             </div>
@@ -165,7 +181,7 @@ export default function Contact() {
                 <span className="font-semibold text-white">Workshop Operating Hours:</span>
                 <span>{garageInfo.hours.weekdays}</span>
               </div>
-              <span className="text-gray-400 font-light">{garageInfo.hours.sunday}</span>
+              <span className="text-gray-400 font-light">{garageInfo.hours.emergency}</span>
             </div>
           </div>
 

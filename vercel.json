@@ -1,17 +1,5 @@
 {
-  "redirects": [
-    {
-      "source": "/(.*)",
-      "has": [
-        {
-          "type": "host",
-          "value": "shahzadautogarage.com"
-        }
-      ],
-      "destination": "https://www.shahzadautogarage.com/$1",
-      "permanent": true
-    }
-  ],
+  "cleanUrls": true,
   "headers": [
     {
       "source": "/assets/(.*)",
@@ -23,19 +11,26 @@
       ]
     },
     {
-      "source": "/(logo|services|hero-bg.webp)(.*)",
+      "source": "/((?!assets/).*)",
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
+          "value": "public, max-age=0, must-revalidate"
         }
       ]
     }
   ],
-  "rewrites": [
+  "redirects": [
     {
       "source": "/(.*)",
-      "destination": "/index.html"
+      "has": [
+        {
+          "type": "host",
+          "value": "shahzadautogarage.com"
+        }
+      ],
+      "destination": "https://www.shahzadautogarage.com/$1",
+      "permanent": true
     }
   ]
 }

@@ -2,26 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
 const DOMAIN = 'https://www.shahzadautogarage.com';
-const DEFAULT_IMAGE = `${DOMAIN}/hero-bg.webp`;
-
-// TODO PLACEHOLDERS FOR USER CONFIGURATION
-export const SEO_TODOS = {
-  ga4Id: 'G-XXXXXXXXXX', // TODO: Replace G-XXXXXXXXXX with your GA4 Measurement ID
-  gscVerification: 'TODO_GSC_VERIFICATION_TOKEN', // TODO: Replace with Google Search Console verification token
-  facebookUrl: 'https://www.facebook.com/TODO_SHAHZAD_AUTO_GARAGE', // TODO: Replace with official Facebook page URL
-  instagramUrl: 'https://www.instagram.com/TODO_SHAHZAD_AUTO_GARAGE', // TODO: Replace with official Instagram profile URL
-  geoLat: 33.6766, // Latitude for G-11/4 Golra Service Road, Islamabad
-  geoLng: 72.9805  // Longitude for G-11/4 Golra Service Road, Islamabad
-};
-
-/**
- * Event Tracking Helper for Analytics (GA4)
- */
-export const trackEvent = (eventName, eventParams = {}) => {
-  if (typeof window !== 'undefined' && window.gtag) {
-    window.gtag('event', eventName, eventParams);
-  }
-};
+const DEFAULT_IMAGE = `${DOMAIN}/og-image.jpg`;
 
 export default function SEO({
   title,
@@ -35,6 +16,13 @@ export default function SEO({
   const cleanPath = canonicalPath ? (canonicalPath.startsWith('/') ? canonicalPath : `/${canonicalPath}`) : '';
   const canonicalUrl = `${DOMAIN}${cleanPath}`;
   const imageUrl = ogImage.startsWith('http') ? ogImage : `${DOMAIN}${ogImage.startsWith('/') ? ogImage : `/${ogImage}`}`;
+
+  // Environment variables with fallback check
+  const ga4Id = (typeof import.meta !== 'undefined' && import.meta.env && import.meta.env.VITE_GA4_ID) || (typeof process !== 'undefined' && process.env && process.env.VITE_GA4_ID) || '';
+  const gscVerification = (typeof import.meta !== 'undefined' && import.meta.env && import.meta.env.VITE_GSC_VERIFICATION) || (typeof process !== 'undefined' && process.env && process.env.VITE_GSC_VERIFICATION) || '';
+
+  const isValidGa4 = ga4Id && typeof ga4Id === 'string' && ga4Id.startsWith('G-') && !ga4Id.includes('XXXX');
+  const isValidGsc = gscVerification && typeof gscVerification === 'string' && !gscVerification.includes('TODO');
 
   return (
     <Helmet>
@@ -51,10 +39,25 @@ export default function SEO({
         <meta name="robots" content="noindex, nofollow" />
       ) : null}
 
-      {/* Google Search Console Verification */}
-      {SEO_TODOS.gscVerification && SEO_TODOS.gscVerification !== 'TODO_GSC_VERIFICATION_TOKEN' && (
-        <meta name="google-site-verification" content={SEO_TODOS.gscVerification} />
-      )}
+      {/* Google Search Console Verification (Rendered ONLY when valid env var exists) */}
+      {isValidGsc ? (
+        <meta name="google-site-verification" content={gscVerification} />
+      ) : null}
+
+      {/* GA4 Analytics Scripts (Rendered ONLY when valid env var exists) */}
+      {isValidGa4 ? (
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${ga4Id}`} />
+      ) : null}
+      {isValidGa4 ? (
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${ga4Id}');
+          `}
+        </script>
+      ) : null}
 
       {/* Open Graph Tags */}
       <meta property="og:type" content={ogType} />
@@ -82,3 +85,12 @@ export default function SEO({
     </Helmet>
   );
 }
+
+/**
+ * Event Tracking Helper for Analytics (GA4)
+ */
+export const trackEvent = (eventName, eventParams = {}) => {
+  if (typeof window !== 'undefined' && window.gtag) {
+    window.gtag('event', eventName, eventParams);
+  }
+};

@@ -453,9 +453,9 @@ export const getAutoRepairSchema = () => ({
   ],
   "sameAs": [
     garageInfo.locationLink,
-    "https://www.facebook.com/TODO_SHAHZAD_AUTO_GARAGE",
-    "https://www.instagram.com/TODO_SHAHZAD_AUTO_GARAGE"
-  ]
+    typeof import.meta !== 'undefined' && import.meta.env ? import.meta.env.VITE_FACEBOOK_URL : null,
+    typeof import.meta !== 'undefined' && import.meta.env ? import.meta.env.VITE_INSTAGRAM_URL : null
+  ].filter(url => url && typeof url === 'string' && !url.includes('TODO'))
 });
 
 export const getServiceSchema = (service) => ({

@@ -219,7 +219,11 @@ export default function ServiceDetail() {
               </h2>
             </div>
 
-            <FAQAccordion items={service.faqs} />
+            <div className="space-y-4">
+              {service.faqs.map((faq, idx) => (
+                <FAQAccordion key={idx} faq={faq} defaultOpen={idx === 0} />
+              ))}
+            </div>
           </div>
         </section>
       )}

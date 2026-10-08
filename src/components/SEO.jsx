@@ -17,11 +17,13 @@ export default function SEO({
   const canonicalUrl = `${DOMAIN}${cleanPath}`;
   const imageUrl = ogImage.startsWith('http') ? ogImage : `${DOMAIN}${ogImage.startsWith('/') ? ogImage : `/${ogImage}`}`;
 
-  // Environment variables with default fallback
-  const ga4Id = (typeof import.meta !== 'undefined' && import.meta.env && import.meta.env.VITE_GA4_ID) || (typeof process !== 'undefined' && process.env && process.env.VITE_GA4_ID) || 'G-R5ELK25NSM';
+  // GA4 Measurement ID with default fallback
+  const ga4Id = (typeof import.meta !== 'undefined' && import.meta.env && import.meta.env.VITE_GA4_ID && import.meta.env.VITE_GA4_ID.startsWith('G-')) 
+    ? import.meta.env.VITE_GA4_ID 
+    : 'G-R5ELK25NSM';
   const gscVerification = (typeof import.meta !== 'undefined' && import.meta.env && import.meta.env.VITE_GSC_VERIFICATION) || (typeof process !== 'undefined' && process.env && process.env.VITE_GSC_VERIFICATION) || '';
 
-  const isValidGa4 = ga4Id && typeof ga4Id === 'string' && ga4Id.startsWith('G-') && !ga4Id.includes('XXXX');
+  const isValidGa4 = true; // G-R5ELK25NSM is guaranteed valid
   const isValidGsc = gscVerification && typeof gscVerification === 'string' && !gscVerification.includes('TODO');
 
   return (

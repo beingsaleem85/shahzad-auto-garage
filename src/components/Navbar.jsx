@@ -186,7 +186,7 @@ export default function Navbar() {
                       to={link.path}
                       className="text-sm font-semibold text-[#E0C15A] px-3 py-2 flex items-center justify-between bg-[#121212] rounded-lg border border-[#C9A227]/20"
                     >
-                      <span>{link.name} Landing Page</span>
+                      <span>{link.name}</span>
                       <ChevronRight className="w-4 h-4 text-[#C9A227]" />
                     </Link>
                     <div className="pl-3 space-y-1 mt-1 border-l-2 border-[#C9A227]/40 my-1">

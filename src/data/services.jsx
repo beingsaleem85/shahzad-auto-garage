@@ -33,10 +33,10 @@ export const servicesData = [
     heroSubtitle: "Restoring Engine Compression, Horsepower & Thermal Stability in Islamabad.",
     overview: `When an engine suffers severe wear, loss of compression, blue exhaust smoke, or excessive oil consumption, a complete engine overhaul provides a reliable, cost-effective path to renewed automotive performance. At Shahzad Auto Garage in G-11/4 Golra Service Road, Islamabad, our engine overhauling service follows an engineering-grade procedure designed to restore factory power specifications.
 
-Our master mechanics perform complete engine removal, chemical ultrasonic cleaning, micrometer bore measuring, valve grinding, piston ring setting, crankshaft journal inspection, and precision torque reassembly. Whether your Japanese, European, or local vehicle requires a full top-to-bottom engine rebuild or cylinder head overhaul, we ensure strict adherence to original manufacturer tolerances and pressure testing standards.`,
+Our master mechanics perform complete engine removal, deep cleaning, cylinder bore measuring, valve grinding, piston ring setting, crankshaft journal inspection, and precision torque reassembly. Whether your Japanese, European, or local vehicle requires a full top-to-bottom engine rebuild or cylinder head overhaul, we ensure strict adherence to original manufacturer tolerances and pressure testing standards.`,
     whatWeCoverTitle: "Engineering Steps in Our Islamabad Engine Overhaul",
     whatWeCover: [
-      { title: "Engine Diagnostics & Borescope Check", desc: "Compression testing, cylinder leak-down analysis, and internal borescope inspection to determine exact wear." },
+      { title: "Engine Diagnostics & Inspection", desc: "Compression testing, physical cylinder analysis, and thorough inspection to determine exact wear." },
       { title: "Systematic Removal & Disassembly", desc: "Safe extraction of the engine block, cylinder head, pistons, connecting rods, and crankshaft assembly." },
       { title: "Micro-Measurement & Chemical Cleaning", desc: "Chemical de-greasing and micrometer measurement of cylinder walls, valve seats, and bearing journals." },
       { title: "Precision OEM Component Fitting", desc: "Installing new pistons, piston rings, main bearings, rod bearings, valve guides, timing kits, and oil pumps." },
@@ -74,21 +74,21 @@ Our master mechanics perform complete engine removal, chemical ultrasonic cleani
     slug: "brake-service-islamabad",
     title: "Brake Service",
     metaTitle: "Brake Service & Repair in Islamabad | Shahzad Auto Garage",
-    metaDescription: "Professional brake service in G-11/4 Islamabad. Ceramic brake pad replacement, rotor lathe resurfacing, ABS diagnostic & fluid flush. Call today.",
+    metaDescription: "Professional brake service in G-11/4 Islamabad. Ceramic brake pad replacement, rotor inspection & replacement, ABS diagnostic & fluid flush. Call today.",
     h1: "Brake Repair & Service in G-11/4, Islamabad",
-    shortDescription: "Precision brake inspections, ceramic pad replacement, disc rotor lathe resurfacing, and synthetic brake fluid flushing for maximum stopping safety.",
+    shortDescription: "Precision brake inspections, ceramic pad replacement, disc rotor inspection and replacement, and synthetic brake fluid flushing for maximum stopping safety.",
     iconName: "ShieldAlert",
     image: "/services/brake-service.webp",
     heroImage: "/services/brake-service.webp",
     heroSubtitle: "Uncompromising Stopping Safety, Firm Pedal Feedback & Maximum Braking Efficiency.",
     overview: `Braking integrity is the most critical safety feature of any motor vehicle. At Shahzad Auto Garage on Golra Service Road, G-11/4 Islamabad, our specialized brake service covers comprehensive physical and electronic audits of brake rotors, ceramic pads, hydraulic calipers, lines, master cylinders, and ABS modules.
 
-Whether your car is experiencing high-pitched brake squeaking, steering wheel shudder during high-speed braking, or a soft, spongy brake pedal, our experienced technicians pinpoint and resolve the underlying issue. We utilize premium ceramic brake pads and precision disc lathe machinery to ensure smooth, noise-free, immediate stopping power under all Islamabad driving conditions.`,
+Whether your car is experiencing high-pitched brake squeaking, steering wheel shudder during high-speed braking, or a soft, spongy brake pedal, our experienced technicians pinpoint and resolve the underlying issue. We utilize premium ceramic brake pads and quality brake components to ensure smooth, noise-free, immediate stopping power under all Islamabad driving conditions.`,
     whatWeCoverTitle: "Comprehensive Brake Service & Repair Scope",
     whatWeCover: [
       { title: "Brake System Health & Safety Audit", desc: "Measuring pad thickness, rotor runout, caliper piston retraction, and hydraulic line pressure integrity." },
       { title: "Ceramic & Semi-Metallic Pad Replacement", desc: "Fitting low-dust, high-friction ceramic or heavy-duty brake pads for silent, confident stopping performance." },
-      { title: "Rotor Refacing & Replacement", desc: "On-lathe disc rotor resurfacing to eliminate warping shudders, or installation of vented OEM replacement discs." },
+      { title: "Rotor Inspection & Replacement", desc: "Disc rotor inspection to address warping shudders, or installation of vented OEM replacement discs." },
       { title: "Synthetic Hydraulic Fluid Bleed & Flush", desc: "Flushing old, moisture-contaminated brake fluid with high-boiling-point synthetic fluid to restore firm pedal feel." },
       { title: "Caliper & Slider Pin Overhaul", desc: "Cleaning, lubricating slider pins, and replacing worn rubber dust boots to prevent brake drag and overheating." },
       { title: "ABS Module & Sensor Scanning", desc: "Diagnosing ABS warning lights, traction control flags, and electronic parking brake actuator faults." }
@@ -129,7 +129,7 @@ Whether your car is experiencing high-pitched brake squeaking, steering wheel sh
     heroSubtitle: "Computerized OBD-II Scans & Advanced Automotive Electronic Fault Resolution.",
     overview: `Modern vehicles are sophisticated electronic networks incorporating dozens of onboard computers (ECU, TCU, ABS, BCM), digital sensors, and high-voltage wiring looms. When warning lights illuminate on your dashboard or unexpected electrical failures occur, guesswork can lead to unnecessary, costly part replacements.
 
-At Shahzad Auto Garage in G-11/4 Islamabad, we utilize high-grade OBD-II diagnostic scanners, digital oscilloscopes, and calibrated multimeters to pinpoint electronic sensor failures, charging circuit faults, starter issues, and wiring shorts quickly and accurately. We provide clear code diagnostics and transparent electronic repair solutions for all Japanese, European, and local vehicles.`,
+At Shahzad Auto Garage in G-11/4 Islamabad, we utilize high-grade OBD-II diagnostic scanners, computerized diagnostic tools, and calibrated multimeters to pinpoint electronic sensor failures, charging circuit faults, starter issues, and wiring shorts quickly and accurately. We provide clear code diagnostics and transparent electronic repair solutions for all Japanese, European, and local vehicles.`,
     whatWeCoverTitle: "Complete Auto Electrical & Electronic Services",
     whatWeCover: [
       { title: "Computerized OBD-II ECU Scanning", desc: "Interrogating onboard computer modules to read live data streams, freeze-frame data, and diagnostic trouble codes (DTCs)." },
@@ -225,7 +225,7 @@ At Shahzad Auto Garage on Golra Service Road, G-11/4 Islamabad, we specialize in
     whatWeCoverTitle: "Transmission & Driveline Service Scope",
     whatWeCover: [
       { title: "Automatic Transmission Fluid (ATF/CVT) Flush", desc: "Draining degraded fluid, replacing sump pan filters, and refilling with exact OEM-specified CVT or ATF fluid." },
-      { title: "Manual Transmission & Clutch Overhaul", desc: "Replacing worn clutch discs, pressure plates, release bearings, and resurfacing flywheels for crisp gear engagement." },
+      { title: "Manual Transmission & Clutch Overhaul", desc: "Replacing worn clutch discs, pressure plates, release bearings, and servicing flywheels for crisp gear engagement." },
       { title: "Gear Shift Diagnostic & Solenoid Testing", desc: "Scanning transmission control modules (TCU) and testing electronic shift solenoids for smooth gear transitions." },
       { title: "CV Axle Joint & Boot Replacement", desc: "Replacing torn constant velocity (CV) boots and worn drive axle joints to eliminate clicking sounds on full turns." },
       { title: "Differential & Transfer Case Maintenance", desc: "Replacing gear oil in front/rear differentials and transfer cases to prevent gear whining and tooth wear." },
@@ -304,7 +304,7 @@ Shahzad Auto Garage in G-11/4 Golra Service Road, Islamabad provides rapid, meti
 export const faqsData = [
   {
     question: "What core automotive services does Shahzad Auto Garage provide in Islamabad?",
-    answer: "We provide six core specialized service categories: Engine Overhauling, Brake Service & Disc Resurfacing, Computerized Electrical Diagnostics, Suspension Overhaul, Transmission Repair, and Synthetic Oil Changes. Each service is performed by experienced technicians using precision tools in G-11/4 Islamabad."
+    answer: "We provide six core specialized service categories: Engine Overhauling, Brake Service & Repair, Computerized Electrical Diagnostics, Suspension Overhaul, Transmission Repair, and Synthetic Oil Changes. Each service is performed by experienced technicians using precision tools in G-11/4 Islamabad."
   },
   {
     question: "How can I book a service or consultation at Shahzad Auto Garage?",
@@ -350,8 +350,8 @@ export const faqsData = [
     answer: "Yes. Our Engine Overhauling service covers complete diagnostic assessments, engine dismantling, thorough cleaning, cylinder and head inspection, precision valve/ring/bearing replacement, reassembly to factory torque specs, and pressure testing."
   },
   {
-    question: "Do you offer brake inspection and disc resurfacing?",
-    answer: "Yes, our Brake Service includes checking pad thickness, rotor condition, brake lines, calipers, hydraulic fluid flushing, disc lathe resurfacing, and diagnosing ABS or handbrake issues to ensure stopping safety."
+    question: "Do you offer brake inspection and rotor replacement?",
+    answer: "Yes, our Brake Service includes checking pad thickness, rotor condition, brake lines, calipers, hydraulic fluid flushing, rotor inspection and replacement where needed, and diagnosing ABS or handbrake issues to ensure stopping safety."
   },
   {
     question: "Can you diagnose complex check engine lights and electrical problems?",

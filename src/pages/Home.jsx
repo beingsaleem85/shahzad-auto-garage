@@ -94,7 +94,7 @@ export default function Home() {
             <div className="glass-card p-6 sm:p-7 rounded-2xl border-gold-glow space-y-6 text-left">
               <div className="flex items-center justify-between border-b border-[#262626] pb-4">
                 <div className="text-xs font-semibold uppercase tracking-wider text-[#C9A227]">Workshop Info</div>
-                <span className="text-[11px] px-2.5 py-1 rounded bg-emerald-950/60 text-emerald-400 font-medium border border-emerald-500/30">Open Now</span>
+                <span className="text-[11px] px-2.5 py-1 rounded bg-emerald-950/60 text-emerald-400 font-medium border border-emerald-500/30">Open 24/7</span>
               </div>
 
               <div className="space-y-4 text-xs">

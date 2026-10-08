@@ -12,7 +12,7 @@ export const garageInfo = {
   address: "Opposite Lucky Star Cricket Stadium, G-11/4 Golra Service Road, Islamabad",
   locationLink: "https://share.google/w6jiCzr4mbjRdOAXS",
   hours: {
-    weekdays: "Monday – Sunday: 08:00 AM – 10:00 PM",
+    weekdays: "Open 24/7 (24 Hours, 7 Days a Week)",
     emergency: "24/7 available in case of emergency"
   },
   logo: "/logo/shahzad auto garage logo.webp"
@@ -317,7 +317,7 @@ export const faqsData = [
         or sending us a direct message on{' '}
         <a href="https://wa.me/923424793753" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline font-semibold">
           WhatsApp at +92 342 4793753
-        </a>. You can also visit our workshop directly along Golra Service Road, G-11/4 Islamabad during operating hours.
+        </a>. You can also visit our workshop directly along Golra Service Road, G-11/4 Islamabad anytime as we are open 24/7.
       </>
     )
   },
@@ -443,8 +443,8 @@ export const getAutoRepairSchema = () => ({
     {
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-      "opens": "08:00",
-      "closes": "22:00"
+      "opens": "00:00",
+      "closes": "23:59"
     }
   ],
   "areaServed": [

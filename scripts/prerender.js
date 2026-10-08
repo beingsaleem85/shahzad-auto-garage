@@ -99,7 +99,11 @@ async function prerender() {
   };
 
   if (fs.existsSync(staticDir)) {
-    copyRecursiveSync(staticDir, path.resolve(rootDir, 'dist'));
+    const items = fs.readdirSync(staticDir);
+    for (const item of items) {
+      if (item === 'index.html') continue; // Do not overwrite prerendered homepage index.html
+      copyRecursiveSync(path.join(staticDir, item), path.join(rootDir, 'dist', item));
+    }
     fs.rmSync(staticDir, { recursive: true, force: true });
   }
 

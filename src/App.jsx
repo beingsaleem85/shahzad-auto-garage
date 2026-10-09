@@ -1,20 +1,18 @@
-import React, { Suspense, lazy } from 'react';
+import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
 import ScrollToTop from './components/ScrollToTop';
 
-// Direct import for fast Homepage rendering
+// Pages
 import Home from './pages/Home';
-
-// Lazy-loaded inner pages for code splitting & smaller initial JS bundle
-const About = lazy(() => import('./pages/About'));
-const Services = lazy(() => import('./pages/Services'));
-const ServiceDetail = lazy(() => import('./pages/ServiceDetail'));
-const FAQs = lazy(() => import('./pages/FAQs'));
-const Contact = lazy(() => import('./pages/Contact'));
-const NotFound = lazy(() => import('./pages/NotFound'));
+import About from './pages/About';
+import Services from './pages/Services';
+import ServiceDetail from './pages/ServiceDetail';
+import FAQs from './pages/FAQs';
+import Contact from './pages/Contact';
+import NotFound from './pages/NotFound';
 
 export default function App() {
   return (
@@ -22,8 +20,7 @@ export default function App() {
       <ScrollToTop />
       <Navbar />
       <main className="flex-grow">
-        <Suspense fallback={<div className="min-h-screen bg-[#0A0A0A]"></div>}>
-          <Routes>
+        <Routes>
           {/* Main Canonical Pages */}
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -43,7 +40,6 @@ export default function App() {
           {/* 404 Catch-All Page */}
           <Route path="*" element={<NotFound />} />
         </Routes>
-        </Suspense>
       </main>
       <Footer />
       <FloatingWhatsApp />

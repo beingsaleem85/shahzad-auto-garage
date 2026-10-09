@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, ArrowRight, ShieldCheck, Activity, Eye, HeartHandshake, MapPin, Clock, Award, CheckCircle2, ChevronRight, ShieldAlert } from 'lucide-react';
+import { Phone, ArrowRight, ShieldCheck, MapPin, Clock, Award, CheckCircle2, ChevronRight, ShieldAlert } from 'lucide-react';
 import SEO, { trackEvent } from '../components/SEO';
 import ServiceCard from '../components/ServiceCard';
 import StatsCounter from '../components/StatsCounter';
@@ -154,11 +154,11 @@ export default function Home() {
             <div className="lg:col-span-6 relative">
               <div className="relative rounded-2xl overflow-hidden border border-[#262626] shadow-2xl group">
                 <img
-                  src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&w=800&q=70&fm=webp"
+                  src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&w=480&q=50&fm=webp"
                   alt="Technician working on engine"
                   className="w-full h-[440px] object-cover object-center group-hover:scale-105 transition-transform duration-700"
-                  width="800"
-                  height="440"
+                  width="480"
+                  height="264"
                   loading="lazy"
                   decoding="async"
                 />

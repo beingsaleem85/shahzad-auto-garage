@@ -20,6 +20,8 @@ export default function Footer() {
                 src={garageInfo.logo} 
                 alt="Shahzad Auto Garage" 
                 className="h-16 sm:h-18 w-auto object-contain brightness-110 drop-shadow-[0_2px_12px_rgba(201,162,39,0.2)]"
+                width="250"
+                height="143"
                 loading="lazy"
                 decoding="async"
               />
@@ -133,7 +135,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-8 border-t border-[#1F1F1F] flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500 font-light relative z-20">
+        <div className="pt-8 border-t border-[#1F1F1F] flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-400 font-light relative z-20">
           <p>© {new Date().getFullYear()} Shahzad Auto Garage. All rights reserved.</p>
           <div className="relative z-20 pointer-events-auto">
             Developed by{' '}

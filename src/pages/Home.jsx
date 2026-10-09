@@ -27,15 +27,18 @@ export default function Home() {
       <section className="relative min-h-[90vh] flex items-center justify-center pt-28 pb-20 overflow-hidden bg-black">
         {/* Hero Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
-          <img 
-            src="/hero-bg.webp" 
-            alt="Shahzad Auto Garage Workshop Specialist in G-11/4 Islamabad" 
-            className="w-full h-full object-cover object-center opacity-40 scale-105 animate-fade-in"
-            fetchpriority="high"
-            decoding="async"
-            width="1400"
-            height="788"
-          />
+          <picture className="block w-full h-full">
+            <source media="(max-width: 640px)" srcSet="/hero-bg-mobile.webp" type="image/webp" />
+            <img 
+              src="/hero-bg.webp" 
+              alt="Shahzad Auto Garage Workshop Specialist in G-11/4 Islamabad" 
+              className="w-full h-full object-cover object-center opacity-40 scale-105 animate-fade-in"
+              fetchpriority="high"
+              decoding="async"
+              width="1024"
+              height="580"
+            />
+          </picture>
           {/* Gradients */}
           <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0A] via-[#0A0A0A]/70 to-black/80"></div>
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#C9A227]/10 via-transparent to-transparent"></div>
@@ -154,6 +157,8 @@ export default function Home() {
                   src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&w=800&q=70&fm=webp"
                   alt="Technician working on engine"
                   className="w-full h-[440px] object-cover object-center group-hover:scale-105 transition-transform duration-700"
+                  width="800"
+                  height="440"
                   loading="lazy"
                   decoding="async"
                 />

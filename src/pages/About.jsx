@@ -13,8 +13,8 @@ export default function About() {
   return (
     <>
       <SEO 
-        title="About Us | Auto Repair Experts in G-11/4 Islamabad"
-        description="Learn about Shahzad Auto Garage in G-11/4 Golra Service Road, Islamabad. Master mechanics providing engine overhauls, diagnostics & precision auto repair."
+        title="About Us | Auto Repair Experts in G-11/1 Islamabad"
+        description="Learn about Shahzad Auto Garage in G-11/1 Golra Service Road, Islamabad. Master mechanics providing engine overhauls, diagnostics & precision auto repair."
         canonicalPath="/about"
         schema={aboutBreadcrumbs}
       />
@@ -24,7 +24,7 @@ export default function About() {
         <div className="absolute inset-0 z-0">
           <img 
             src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?q=80&w=1600&auto=format&fit=crop" 
-            alt="Shahzad Auto Garage Workshop in G-11/4 Islamabad" 
+            alt="Shahzad Auto Garage Workshop in G-11/1 Islamabad" 
             className="w-full h-full object-cover object-center opacity-25"
             loading="lazy"
             decoding="async"
@@ -37,7 +37,7 @@ export default function About() {
             About Our Workshop
           </div>
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight max-w-4xl mx-auto leading-tight">
-            About Shahzad Auto Garage in G-11/4, Islamabad
+            About Shahzad Auto Garage in G-11/1, Islamabad
           </h1>
           <p className="text-sm sm:text-base text-gray-300 font-light max-w-2xl mx-auto">
             Delivering precise diagnostics, dependable mechanical maintenance, and honest client care in Islamabad.
@@ -169,7 +169,7 @@ export default function About() {
             Have Questions About Your Vehicle's Condition?
           </h2>
           <p className="text-xs sm:text-sm text-gray-300 font-light">
-            Contact our technicians at Shahzad Auto Garage in G11/4 Islamabad.
+            Contact our technicians at Shahzad Auto Garage in G-11/1 Islamabad.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a

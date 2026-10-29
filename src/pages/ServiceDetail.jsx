@@ -35,7 +35,7 @@ export default function ServiceDetail() {
     <>
       <SEO 
         title={service.metaTitle || `${service.title} | Shahzad Auto Garage Islamabad`}
-        description={service.metaDescription || `${service.title} in G-11/4 Islamabad at Shahzad Auto Garage. ${service.shortDescription}`}
+        description={service.metaDescription || `${service.title} in G-11/1 Islamabad at Shahzad Auto Garage. ${service.shortDescription}`}
         canonicalPath={`/services/${service.slug}`}
         schema={serviceSchemas}
       />
@@ -47,7 +47,7 @@ export default function ServiceDetail() {
         <div className="absolute inset-0 z-0">
           <img 
             src={service.heroImage} 
-            alt={`${service.title} at Shahzad Auto Garage G-11/4 Islamabad`} 
+            alt={`${service.title} at Shahzad Auto Garage G-11/1 Islamabad`} 
             className="w-full h-full object-cover object-center opacity-30 scale-105"
             fetchpriority="high"
             decoding="async"
@@ -112,7 +112,7 @@ export default function ServiceDetail() {
                   <span>Workshop Standard Guarantee</span>
                 </div>
                 <p className="text-xs text-gray-400 font-light leading-relaxed">
-                  All {service.title.toLowerCase()} procedures at Shahzad Auto Garage are performed following strict automotive clearance and diagnostic protocols in G-11/4 Islamabad.
+                  All {service.title.toLowerCase()} procedures at Shahzad Auto Garage are performed following strict automotive clearance and diagnostic protocols in G-11/1 Islamabad.
                 </p>
               </div>
             </div>
@@ -130,7 +130,7 @@ export default function ServiceDetail() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
                 <div className="absolute bottom-4 left-4 right-4 p-4 rounded-xl bg-[#0A0A0A]/90 border border-[#C9A227]/30 backdrop-blur-sm text-xs text-gray-300 font-medium">
-                  Professional diagnostic bay in G-11/4 Islamabad
+                  Professional diagnostic bay in G-11/1 Islamabad
                 </div>
               </div>
             </div>
@@ -236,7 +236,7 @@ export default function ServiceDetail() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 p-6 rounded-2xl bg-[#121212] border border-[#C9A227]/40 shadow-[0_0_20px_rgba(201,162,39,0.2)]">
             <div>
-              <h3 className="text-lg font-bold text-white">Need {service.title} in G-11/4 Islamabad?</h3>
+              <h3 className="text-lg font-bold text-white">Need {service.title} in G-11/1 Islamabad?</h3>
               <p className="text-xs text-gray-300 font-light mt-0.5">Call our technicians or send a direct WhatsApp message today.</p>
             </div>
             <div className="flex items-center gap-3">

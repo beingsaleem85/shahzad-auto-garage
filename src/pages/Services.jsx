@@ -14,7 +14,7 @@ export default function Services() {
   return (
     <>
       <SEO 
-        title="Car Repair Services in G-11/4 Islamabad | Shahzad Garage"
+        title="Car Repair Services in G-11/1 Islamabad | Shahzad Garage"
         description="Explore auto repair services at Shahzad Auto Garage Islamabad: engine overhauling, brake service, electrical diagnostics, suspension, transmission & oil change."
         canonicalPath="/services"
         schema={servicesBreadcrumbs}
@@ -41,7 +41,7 @@ export default function Services() {
             Auto Repair & Maintenance Services in Islamabad
           </h1>
           <p className="text-sm sm:text-base text-gray-300 font-light max-w-2xl mx-auto leading-relaxed">
-            Discover our comprehensive spectrum of mechanical repair, engine rebuilding, electronic diagnostic, brake safety, suspension tuning, and maintenance services in G-11/4 Islamabad.
+            Discover our comprehensive spectrum of mechanical repair, engine rebuilding, electronic diagnostic, brake safety, suspension tuning, and maintenance services in G-11/1 Islamabad.
           </p>
         </div>
       </section>

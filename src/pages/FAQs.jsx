@@ -20,7 +20,7 @@ export default function FAQs() {
     <>
       <SEO 
         title="Car Repair FAQs Islamabad | Shahzad Auto Garage"
-        description="Frequently asked questions about car repair, engine overhauls, brake service, electrical diagnostics & location at Shahzad Auto Garage in G-11/4 Islamabad."
+        description="Frequently asked questions about car repair, engine overhauls, brake service, electrical diagnostics & location at Shahzad Auto Garage in G-11/1 Islamabad."
         canonicalPath="/faqs"
         schema={faqSchemas}
       />
@@ -46,7 +46,7 @@ export default function FAQs() {
             Car Repair & Maintenance FAQs in Islamabad
           </h1>
           <p className="text-sm sm:text-base text-gray-300 font-light max-w-2xl mx-auto leading-relaxed">
-            Have questions regarding our workshop services, location in G11/4 Islamabad, or how to contact our technicians? Find immediate answers below.
+            Have questions regarding our workshop services, location in G-11/1 Islamabad, or how to contact our technicians? Find immediate answers below.
           </p>
         </div>
       </section>

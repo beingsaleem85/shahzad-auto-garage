@@ -8,7 +8,7 @@ export default function NotFound() {
     <>
       <SEO 
         title="404 - Page Not Found | Shahzad Auto Garage Islamabad"
-        description="The requested page could not be found on Shahzad Auto Garage. Return to our home page or explore our car repair services in G-11/4 Islamabad."
+        description="The requested page could not be found on Shahzad Auto Garage. Return to our home page or explore our car repair services in G-11/1 Islamabad."
         canonicalPath="/404"
         noindex={true}
       />
@@ -27,7 +27,7 @@ export default function NotFound() {
               Looking for Quality Auto Repair in Islamabad?
             </h1>
             <p className="text-sm text-gray-400 font-light leading-relaxed">
-              The page you are trying to reach has moved or does not exist. Explore our core service offerings below or contact our technicians directly in G-11/4 Islamabad.
+              The page you are trying to reach has moved or does not exist. Explore our core service offerings below or contact our technicians directly in G-11/1 Islamabad.
             </p>
           </div>
 

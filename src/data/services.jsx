@@ -9,7 +9,7 @@ export const garageInfo = {
   whatsapp: "+92 342 4793753",
   whatsappRaw: "923424793753",
   whatsappLink: "https://wa.me/923424793753",
-  address: "Opposite Lucky Star Cricket Stadium, G-11/4 Golra Service Road, Islamabad",
+  address: "Opposite Lucky Star Cricket Stadium, G-11/1 Golra Service Road, Islamabad",
   locationLink: "https://share.google/w6jiCzr4mbjRdOAXS",
   hours: {
     weekdays: "Open 24/7 (24 Hours, 7 Days a Week)",
@@ -24,14 +24,14 @@ export const servicesData = [
     slug: "engine-overhauling-islamabad",
     title: "Engine Overhauling",
     metaTitle: "Engine Overhauling in Islamabad | Shahzad Auto Garage",
-    metaDescription: "Engine overhauling in G-11/4 Islamabad at Shahzad Auto Garage. Compression restoration, piston ring replacement & engine rebuilds. Call +923424793753.",
-    h1: "Engine Overhauling Service in G-11/4, Islamabad",
+    metaDescription: "Engine overhauling in G-11/1 Islamabad at Shahzad Auto Garage. Compression restoration, piston ring replacement & engine rebuilds. Call +923424793753.",
+    h1: "Engine Overhauling Service in G-11/1, Islamabad",
     shortDescription: "Complete engine dismantling, cylinder block inspection, precision component replacement, and factory torque calibration in Islamabad.",
     iconName: "Cpu",
     image: "/services/engine-overhauling.webp",
     heroImage: "/services/engine-overhauling.webp",
     heroSubtitle: "Restoring Engine Compression, Horsepower & Thermal Stability in Islamabad.",
-    overview: `When an engine suffers severe wear, loss of compression, blue exhaust smoke, or excessive oil consumption, a complete engine overhaul provides a reliable, cost-effective path to renewed automotive performance. At Shahzad Auto Garage in G-11/4 Golra Service Road, Islamabad, our engine overhauling service follows an engineering-grade procedure designed to restore factory power specifications.
+    overview: `When an engine suffers severe wear, loss of compression, blue exhaust smoke, or excessive oil consumption, a complete engine overhaul provides a reliable, cost-effective path to renewed automotive performance. At Shahzad Auto Garage in G-11/1 Golra Service Road, Islamabad, our engine overhauling service follows an engineering-grade procedure designed to restore factory power specifications.
 
 Our master mechanics perform complete engine removal, deep cleaning, cylinder bore measuring, valve grinding, piston ring setting, crankshaft journal inspection, and precision torque reassembly. Whether your Japanese, European, or local vehicle requires a full top-to-bottom engine rebuild or cylinder head overhaul, we ensure strict adherence to original manufacturer tolerances and pressure testing standards.`,
     whatWeCoverTitle: "Engineering Steps in Our Islamabad Engine Overhaul",
@@ -74,14 +74,14 @@ Our master mechanics perform complete engine removal, deep cleaning, cylinder bo
     slug: "brake-service-islamabad",
     title: "Brake Service",
     metaTitle: "Brake Service & Repair in Islamabad | Shahzad Auto Garage",
-    metaDescription: "Professional brake service in G-11/4 Islamabad. Ceramic brake pad replacement, rotor inspection & replacement, ABS diagnostic & fluid flush. Call today.",
-    h1: "Brake Repair & Service in G-11/4, Islamabad",
+    metaDescription: "Professional brake service in G-11/1 Islamabad. Ceramic brake pad replacement, rotor inspection & replacement, ABS diagnostic & fluid flush. Call today.",
+    h1: "Brake Repair & Service in G-11/1, Islamabad",
     shortDescription: "Precision brake inspections, ceramic pad replacement, disc rotor inspection and replacement, and synthetic brake fluid flushing for maximum stopping safety.",
     iconName: "ShieldAlert",
     image: "/services/brake-service.webp",
     heroImage: "/services/brake-service.webp",
     heroSubtitle: "Uncompromising Stopping Safety, Firm Pedal Feedback & Maximum Braking Efficiency.",
-    overview: `Braking integrity is the most critical safety feature of any motor vehicle. At Shahzad Auto Garage on Golra Service Road, G-11/4 Islamabad, our specialized brake service covers comprehensive physical and electronic audits of brake rotors, ceramic pads, hydraulic calipers, lines, master cylinders, and ABS modules.
+    overview: `Braking integrity is the most critical safety feature of any motor vehicle. At Shahzad Auto Garage on Golra Service Road, G-11/1 Islamabad, our specialized brake service covers comprehensive physical and electronic audits of brake rotors, ceramic pads, hydraulic calipers, lines, master cylinders, and ABS modules.
 
 Whether your car is experiencing high-pitched brake squeaking, steering wheel shudder during high-speed braking, or a soft, spongy brake pedal, our experienced technicians pinpoint and resolve the underlying issue. We utilize premium ceramic brake pads and quality brake components to ensure smooth, noise-free, immediate stopping power under all Islamabad driving conditions.`,
     whatWeCoverTitle: "Comprehensive Brake Service & Repair Scope",
@@ -120,7 +120,7 @@ Whether your car is experiencing high-pitched brake squeaking, steering wheel sh
     slug: "electrical-diagnostics-islamabad",
     title: "Electrical Diagnostics",
     metaTitle: "Electrical Diagnostics Islamabad | Shahzad Auto Garage",
-    metaDescription: "Computerized OBD-II electrical diagnostics in G-11/4 Islamabad. ECU scanning, check engine light, alternator & wiring repairs at Shahzad Auto Garage.",
+    metaDescription: "Computerized OBD-II electrical diagnostics in G-11/1 Islamabad. ECU scanning, check engine light, alternator & wiring repairs at Shahzad Auto Garage.",
     h1: "Car Electrical Diagnostics & ECU Scanning in Islamabad",
     shortDescription: "Computerized OBD-II diagnostic scanning, live ECU data analysis, sensor testing, battery/alternator checks, and wiring short circuit repairs.",
     iconName: "Zap",
@@ -129,7 +129,7 @@ Whether your car is experiencing high-pitched brake squeaking, steering wheel sh
     heroSubtitle: "Computerized OBD-II Scans & Advanced Automotive Electronic Fault Resolution.",
     overview: `Modern vehicles are sophisticated electronic networks incorporating dozens of onboard computers (ECU, TCU, ABS, BCM), digital sensors, and high-voltage wiring looms. When warning lights illuminate on your dashboard or unexpected electrical failures occur, guesswork can lead to unnecessary, costly part replacements.
 
-At Shahzad Auto Garage in G-11/4 Islamabad, we utilize high-grade OBD-II diagnostic scanners, computerized diagnostic tools, and calibrated multimeters to pinpoint electronic sensor failures, charging circuit faults, starter issues, and wiring shorts quickly and accurately. We provide clear code diagnostics and transparent electronic repair solutions for all Japanese, European, and local vehicles.`,
+At Shahzad Auto Garage in G-11/1 Islamabad, we utilize high-grade OBD-II diagnostic scanners, computerized diagnostic tools, and calibrated multimeters to pinpoint electronic sensor failures, charging circuit faults, starter issues, and wiring shorts quickly and accurately. We provide clear code diagnostics and transparent electronic repair solutions for all Japanese, European, and local vehicles.`,
     whatWeCoverTitle: "Complete Auto Electrical & Electronic Services",
     whatWeCover: [
       { title: "Computerized OBD-II ECU Scanning", desc: "Interrogating onboard computer modules to read live data streams, freeze-frame data, and diagnostic trouble codes (DTCs)." },
@@ -148,7 +148,7 @@ At Shahzad Auto Garage in G-11/4 Islamabad, we utilize high-grade OBD-II diagnos
     faqs: [
       {
         question: "Can I drive my car if the Check Engine light comes on?",
-        answer: "If the Check Engine light is solid, you can drive carefully to our workshop in G-11/4 Islamabad. However, if the light is flashing, pull over safely and call us immediately, as a flashing light indicates a severe misfire that can damage the catalytic converter."
+        answer: "If the Check Engine light is solid, you can drive carefully to our workshop in G-11/1 Islamabad. However, if the light is flashing, pull over safely and call us immediately, as a flashing light indicates a severe misfire that can damage the catalytic converter."
       },
       {
         question: "How long does a computerized OBD-II scan take?",
@@ -166,16 +166,16 @@ At Shahzad Auto Garage in G-11/4 Islamabad, we utilize high-grade OBD-II diagnos
     slug: "suspension-repair-islamabad",
     title: "Suspension Repair",
     metaTitle: "Suspension Repair in Islamabad | Shahzad Auto Garage",
-    metaDescription: "Suspension repair & shock absorber replacement in G-11/4 Islamabad. Struts, control arms, ball joints & bushing overhauls at Shahzad Auto Garage.",
+    metaDescription: "Suspension repair & shock absorber replacement in G-11/1 Islamabad. Struts, control arms, ball joints & bushing overhauls at Shahzad Auto Garage.",
     h1: "Car Suspension Repair & Shock Absorber Service in Islamabad",
-    shortDescription: "Complete suspension overhaul, shock absorber replacement, control arm bushing renewal, and steering linkage inspection in G-11/4 Islamabad.",
+    shortDescription: "Complete suspension overhaul, shock absorber replacement, control arm bushing renewal, and steering linkage inspection in G-11/1 Islamabad.",
     iconName: "Sliders",
     image: "/services/suspension-transmission.webp",
     heroImage: "/services/suspension-transmission.webp",
     heroSubtitle: "Smooth Ride Quality, Cornering Stability & Noise-Free Suspension Performance.",
     overview: `Your vehicle's suspension system maintains tire contact with the road while absorbing bumps, potholes, and road vibrations. Over time, Islamabad road conditions wear out shock absorbers, gas struts, rubber control arm bushings, ball joints, and tie rod links. Worn suspension components compromise steering control, increase braking distance, and cause rapid uneven tire wear.
 
-At Shahzad Auto Garage in G-11/4 Golra Service Road, Islamabad, our suspension repair specialists inspect and rebuild front and rear suspension systems. We replace leaking shock absorbers, press in heavy-duty polyurethane or OEM rubber bushings, replace loose ball joints, and restore original factory ride smoothness and cornering confidence.`,
+At Shahzad Auto Garage in G-11/1 Golra Service Road, Islamabad, our suspension repair specialists inspect and rebuild front and rear suspension systems. We replace leaking shock absorbers, press in heavy-duty polyurethane or OEM rubber bushings, replace loose ball joints, and restore original factory ride smoothness and cornering confidence.`,
     whatWeCoverTitle: "Suspension Component Inspection & Repair Scope",
     whatWeCover: [
       { title: "Shock Absorber & Gas Strut Replacement", desc: "Replacing worn, leaking shocks and struts to eliminate vehicle bouncing, body roll, and bottoming out." },
@@ -212,16 +212,16 @@ At Shahzad Auto Garage in G-11/4 Golra Service Road, Islamabad, our suspension r
     slug: "transmission-repair-islamabad",
     title: "Transmission Repair",
     metaTitle: "Transmission Repair Islamabad | Shahzad Auto Garage",
-    metaDescription: "Automatic & manual transmission repair in G-11/4 Islamabad. Transmission fluid flush, gear shift troubleshooting & clutch overhaul at Shahzad Garage.",
+    metaDescription: "Automatic & manual transmission repair in G-11/1 Islamabad. Transmission fluid flush, gear shift troubleshooting & clutch overhaul at Shahzad Garage.",
     h1: "Automatic & Manual Transmission Repair in Islamabad",
-    shortDescription: "Automatic CVT/AT transmission fluid flushing, gear shift troubleshooting, clutch plate replacement, and driveline maintenance in G-11/4 Islamabad.",
+    shortDescription: "Automatic CVT/AT transmission fluid flushing, gear shift troubleshooting, clutch plate replacement, and driveline maintenance in G-11/1 Islamabad.",
     iconName: "Sliders",
     image: "/services/suspension-transmission.webp",
     heroImage: "/services/suspension-transmission.webp",
     heroSubtitle: "Seamless Gear Changes, Transmission Fluid Care & Smooth Power Delivery.",
     overview: `The transmission is a complex mechanical and hydraulic component that transfers engine power to your drive wheels. Whether your car has an automatic (CVT, Dual-Clutch, Conventional Torque Converter) or manual gearbox, proper transmission maintenance and fluid service are essential to prevent costly driveline failures.
 
-At Shahzad Auto Garage on Golra Service Road, G-11/4 Islamabad, we specialize in diagnostic troubleshooting, transmission fluid and filter replacements, gear shift solenoid repairs, clutch disc overhauls, CV joint replacements, and differential servicing. We diagnose gear slipping, delayed engagement, harsh shifting, and abnormal gearbox whining with precision.`,
+At Shahzad Auto Garage on Golra Service Road, G-11/1 Islamabad, we specialize in diagnostic troubleshooting, transmission fluid and filter replacements, gear shift solenoid repairs, clutch disc overhauls, CV joint replacements, and differential servicing. We diagnose gear slipping, delayed engagement, harsh shifting, and abnormal gearbox whining with precision.`,
     whatWeCoverTitle: "Transmission & Driveline Service Scope",
     whatWeCover: [
       { title: "Automatic Transmission Fluid (ATF/CVT) Flush", desc: "Draining degraded fluid, replacing sump pan filters, and refilling with exact OEM-specified CVT or ATF fluid." },
@@ -258,16 +258,16 @@ At Shahzad Auto Garage on Golra Service Road, G-11/4 Islamabad, we specialize in
     slug: "oil-change-islamabad",
     title: "Oil Change",
     metaTitle: "Oil Change Service in Islamabad | Shahzad Auto Garage",
-    metaDescription: "Synthetic engine oil change in G-11/4 Islamabad. Genuine oil filters, multi-point fluid top-ups & safety inspection at Shahzad Auto Garage.",
+    metaDescription: "Synthetic engine oil change in G-11/1 Islamabad. Genuine oil filters, multi-point fluid top-ups & safety inspection at Shahzad Auto Garage.",
     h1: "Engine Oil Change & Preventive Maintenance in Islamabad",
-    shortDescription: "Synthetic and semi-synthetic engine oil replacements, OEM filter changes, fluid level top-ups, and a 20-point visual safety check in G-11/4 Islamabad.",
+    shortDescription: "Synthetic and semi-synthetic engine oil replacements, OEM filter changes, fluid level top-ups, and a 20-point visual safety check in G-11/1 Islamabad.",
     iconName: "Droplet",
     image: "/services/oil-change.webp",
     heroImage: "/services/oil-change.webp",
     heroSubtitle: "Essential Synthetic Lubrication for Thermal Defense, Mileage & Engine Protection.",
     overview: `Regular engine oil changes are the single most effective preventive maintenance routine to protect your vehicle's engine. Fresh, high-grade motor oil lubricates internal moving components, dissipates extreme combustion heat, cleans carbon deposits, and prevents metallic friction wear.
 
-Shahzad Auto Garage in G-11/4 Golra Service Road, Islamabad provides rapid, meticulous oil change services using top-spec fully synthetic, semi-synthetic, and high-mileage lubricants tailored specifically to your vehicle's engine displacement and viscosity requirements (0W-20, 5W-30, 10W-40, 20W-50). Every oil change includes a genuine filter replacement and a complimentary multi-point vehicle safety inspection.`,
+Shahzad Auto Garage in G-11/1 Golra Service Road, Islamabad provides rapid, meticulous oil change services using top-spec fully synthetic, semi-synthetic, and high-mileage lubricants tailored specifically to your vehicle's engine displacement and viscosity requirements (0W-20, 5W-30, 10W-40, 20W-50). Every oil change includes a genuine filter replacement and a complimentary multi-point vehicle safety inspection.`,
     whatWeCoverTitle: "Oil Change & Inspection Service Steps",
     whatWeCover: [
       { title: "Complete Thermal Oil Drain", desc: "Draining old degraded engine oil completely while inspecting magnetic drain plug for metal particles." },
@@ -304,7 +304,7 @@ Shahzad Auto Garage in G-11/4 Golra Service Road, Islamabad provides rapid, meti
 export const faqsData = [
   {
     question: "What core automotive services does Shahzad Auto Garage provide in Islamabad?",
-    answer: "We provide six core specialized service categories: Engine Overhauling, Brake Service & Repair, Computerized Electrical Diagnostics, Suspension Overhaul, Transmission Repair, and Synthetic Oil Changes. Each service is performed by experienced technicians using precision tools in G-11/4 Islamabad."
+    answer: "We provide six core specialized service categories: Engine Overhauling, Brake Service & Repair, Computerized Electrical Diagnostics, Suspension Overhaul, Transmission Repair, and Synthetic Oil Changes. Each service is performed by experienced technicians using precision tools in G-11/1 Islamabad."
   },
   {
     question: "How can I book a service or consultation at Shahzad Auto Garage?",
@@ -317,7 +317,7 @@ export const faqsData = [
         or sending us a direct message on{' '}
         <a href="https://wa.me/923424793753" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:underline font-semibold">
           WhatsApp at +92 342 4793753
-        </a>. You can also visit our workshop directly along Golra Service Road, G-11/4 Islamabad anytime as we are open 24/7.
+        </a>. You can also visit our workshop directly along Golra Service Road, G-11/1 Islamabad anytime as we are open 24/7.
       </>
     )
   },
@@ -337,7 +337,7 @@ export const faqsData = [
     question: "Where is Shahzad Auto Garage located in Islamabad?",
     answer: (
       <>
-        Our garage is conveniently located Opposite Lucky Star Cricket Stadium, G-11/4 Golra Service Road, Islamabad. You can click our{' '}
+        Our garage is conveniently located Opposite Lucky Star Cricket Stadium, G-11/1 Golra Service Road, Islamabad. You can click our{' '}
         <a href="https://share.google/w6jiCzr4mbjRdOAXS" target="_blank" rel="noopener noreferrer" className="text-[#E0C15A] hover:underline font-semibold">
           Google Maps Link
         </a>{' '}
@@ -384,7 +384,7 @@ export const faqsData = [
         <a href="https://share.google/w6jiCzr4mbjRdOAXS" target="_blank" rel="noopener noreferrer" className="text-[#E0C15A] hover:underline font-semibold">
           Google Maps Link
         </a>{' '}
-        to navigate straight to our workshop in G-11/4 Islamabad.
+        to navigate straight to our workshop in G-11/1 Islamabad.
       </>
     )
   }
@@ -428,7 +428,7 @@ export const getAutoRepairSchema = () => ({
   "priceRange": "$$",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Opposite Lucky Star Cricket Stadium, G-11/4 Golra Service Road",
+    "streetAddress": "Opposite Lucky Star Cricket Stadium, G-11/1 Golra Service Road",
     "addressLocality": "Islamabad",
     "addressRegion": "Islamabad Capital Territory",
     "postalCode": "44000",

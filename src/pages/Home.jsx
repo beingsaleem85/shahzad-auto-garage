@@ -15,8 +15,8 @@ export default function Home() {
   return (
     <>
       <SEO 
-        title="Auto Garage in G-11/4 Islamabad | Shahzad Auto Garage" 
-        description="Shahzad Auto Garage, Golra Service Road G-11/4 Islamabad: engine overhauling, brake service, electrical diagnostics, suspension and oil change. Call today."
+        title="Auto Garage in G-11/1 Islamabad | Shahzad Auto Garage" 
+        description="Shahzad Auto Garage, Golra Service Road G-11/1 Islamabad: engine overhauling, brake service, electrical diagnostics, suspension and oil change. Call today."
         canonicalPath="/"
         schema={homeSchemas}
       />
@@ -31,7 +31,7 @@ export default function Home() {
             <source media="(max-width: 640px)" srcSet="/hero-bg-mobile.webp" type="image/webp" />
             <img 
               src="/hero-bg.webp" 
-              alt="Shahzad Auto Garage Workshop Specialist in G-11/4 Islamabad" 
+              alt="Shahzad Auto Garage Workshop Specialist in G-11/1 Islamabad" 
               className="w-full h-full object-cover object-center opacity-40 scale-105 animate-fade-in"
               fetchpriority="high"
               decoding="async"
@@ -57,7 +57,7 @@ export default function Home() {
 
             {/* Main Headline (H1 per Step 2 directive) */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-[1.1]">
-              Car Repair & Auto Garage in <span className="text-gold-gradient">G-11/4, Islamabad</span>
+              Car Repair & Auto Garage in <span className="text-gold-gradient">G-11/1, Islamabad</span>
             </h1>
 
             {/* Subtitle */}
@@ -186,7 +186,7 @@ export default function Home() {
               </h2>
 
               <p className="text-sm sm:text-base text-gray-300 font-light leading-relaxed">
-                Shahzad Auto Garage was built on a single founding principle: delivering meticulous, engineering-grade automotive service without compromise. Located along Golra Service Road in G11/4 Islamabad, we maintain a modern, clean workshop equipped to handle complex mechanical, electronic, and structural vehicle repairs.
+                Shahzad Auto Garage was built on a single founding principle: delivering meticulous, engineering-grade automotive service without compromise. Located along Golra Service Road in G-11/1 Islamabad, we maintain a modern, clean workshop equipped to handle complex mechanical, electronic, and structural vehicle repairs.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 py-2">

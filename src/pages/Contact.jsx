@@ -16,8 +16,8 @@ export default function Contact() {
   return (
     <>
       <SEO 
-        title="Contact & Location | Shahzad Auto Garage G-11/4 Islamabad"
-        description="Contact Shahzad Auto Garage in G-11/4 Golra Service Road, Islamabad. Call +923424793753 or visit for engine overhauling, brakes & diagnostic repairs."
+        title="Contact & Location | Shahzad Auto Garage G-11/1 Islamabad"
+        description="Contact Shahzad Auto Garage in G-11/1 Golra Service Road, Islamabad. Call +923424793753 or visit for engine overhauling, brakes & diagnostic repairs."
         canonicalPath="/contact"
         schema={contactSchemas}
       />
@@ -27,7 +27,7 @@ export default function Contact() {
         <div className="absolute inset-0 z-0">
           <img 
             src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?q=80&w=1600&auto=format&fit=crop" 
-            alt="Shahzad Auto Garage Workshop Location G-11/4 Islamabad" 
+            alt="Shahzad Auto Garage Workshop Location G-11/1 Islamabad" 
             className="w-full h-full object-cover object-center opacity-25"
             loading="lazy"
             decoding="async"
@@ -40,10 +40,10 @@ export default function Contact() {
             Contact Us
           </div>
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight max-w-3xl mx-auto">
-            Contact Shahzad Auto Garage in G-11/4, Islamabad
+            Contact Shahzad Auto Garage in G-11/1, Islamabad
           </h1>
           <p className="text-sm sm:text-base text-gray-300 font-light max-w-2xl mx-auto leading-relaxed">
-            Reach out to our technicians directly by phone or WhatsApp, or visit our garage along Golra Service Road in G-11/4 Islamabad.
+            Reach out to our technicians directly by phone or WhatsApp, or visit our garage along Golra Service Road in G-11/1 Islamabad.
           </p>
         </div>
       </section>
@@ -134,7 +134,7 @@ export default function Contact() {
                   <span>Workshop Location & Google Map</span>
                 </h2>
                 <p className="text-xs text-gray-400 font-light mt-1">
-                  Opposite Lucky Star Cricket Stadium, G-11/4 Golra Service Road, Islamabad
+                  Opposite Lucky Star Cricket Stadium, G-11/1 Golra Service Road, Islamabad
                 </p>
               </div>
 
@@ -153,8 +153,8 @@ export default function Contact() {
             {/* Map Frame Container */}
             <div className="relative w-full h-[450px] rounded-2xl overflow-hidden border border-[#262626] bg-[#121212]">
               <iframe
-                title="Shahzad Auto Garage Location Map G-11/4 Islamabad"
-                src="https://maps.google.com/maps?q=Shahzad+Auto+Garage,+G-11/4,+Golra+Service+Road,+Islamabad&t=&z=16&ie=UTF8&iwloc=B&output=embed"
+                title="Shahzad Auto Garage Location Map G-11/1 Islamabad"
+                src="https://maps.google.com/maps?q=Shahzad+Auto+Garage,+G-11/1,+Golra+Service+Road,+Islamabad&t=&z=16&ie=UTF8&iwloc=B&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -166,7 +166,7 @@ export default function Contact() {
               {/* Floating Overlay Badge */}
               <div className="absolute top-4 left-4 p-4 rounded-xl bg-[#0A0A0A]/95 border border-[#C9A227]/40 text-xs shadow-2xl backdrop-blur-md space-y-1">
                 <div className="font-bold text-[#E0C15A] uppercase tracking-wider">Shahzad Auto Garage</div>
-                <div className="text-[11px] text-gray-300">Opposite Lucky Star Cricket Stadium, G11/4, Islamabad</div>
+                <div className="text-[11px] text-gray-300">Opposite Lucky Star Cricket Stadium, G-11/1, Islamabad</div>
                 <div className="text-[10px] text-emerald-400 font-semibold flex items-center gap-1.5 pt-1">
                   <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
                   <span>Workshop Accessible & Open</span>
